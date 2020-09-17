@@ -15,18 +15,18 @@ def split_by_date(df):
         os.mkdir("dataset")
 
 
+
     for sid in sid_set:
         if not os.path.exists(os.path.join("dataset", sid)):
             os.mkdir(os.path.join("dataset", sid))
 
     df2 = None
-    prev_date = df.loc[0, 'date']
-    stock_df_dict = {}
     date_list = sorted(date_set)
     for i in tqdm(range(1, len(date_list))):
         pre_date = date_list[i-1]
         date = date_list[i]
         for sid in sid_set:
+            print(sid, pre_date)
             mask = (df.loc[:, 'date'] == pre_date) & (df.loc[:, 'sid'] == sid)
             ref_price = float(df.loc[:, 'close'][mask].tail(1))
             mask = (df.loc[:, 'date'] == date) & (df.loc[:, 'sid'] == sid)
