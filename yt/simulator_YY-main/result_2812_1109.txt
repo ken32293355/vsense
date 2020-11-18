@@ -1,0 +1,1761 @@
+['2812']
+SIM REG LOB ['2812']
+SIM REG TICK ['2812']
+SIM TOTAL DATA LENGTH 1844
+SIM TIME 85506115
+self.qty_bound 50 num_order_ask1_q 0
+@in sell want to order 50
+NEW CONFIRM 2812 S 50 @ 10.95 - A0000
+confirm time:  90013931
+### weighted_p:  0
+self.qty_bound 50 num_order_ask1_q 0
+@in sell want to order 50
+NEW CONFIRM 2812 S 50 @ 11.0 - A0001
+confirm time:  90502381
+### weighted_p:  0
+FILL 2812 S 50 @ 10.95 - A0000
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.9 - A0002
+confirm time:  91249339
+### weighted_p:  10.948851148851157
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0003
+confirm time:  91338869
+### weighted_p:  10.950490196078457
+CANCEL CONFIRM 2812 - A0003
+### weighted_p:  10.950505050505077
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0004
+confirm time:  91341826
+### weighted_p:  10.950505050505077
+CANCEL CONFIRM 2812 - A0004
+### weighted_p:  10.950506756756782
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0005
+confirm time:  91355192
+### weighted_p:  10.950506756756782
+CANCEL CONFIRM 2812 - A0005
+### weighted_p:  10.950505050505075
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0006
+confirm time:  91404273
+### weighted_p:  10.950503355704722
+CANCEL CONFIRM 2812 - A0006
+### weighted_p:  10.950503355704722
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0007
+confirm time:  91417414
+### weighted_p:  10.9505263157895
+CANCEL CONFIRM 2812 - A0007
+### weighted_p:  10.9505263157895
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0008
+confirm time:  91419377
+### weighted_p:  10.9505263157895
+CANCEL CONFIRM 2812 - A0008
+### weighted_p:  10.9505263157895
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0009
+confirm time:  91426555
+### weighted_p:  10.950346020761272
+CANCEL CONFIRM 2812 - A0009
+### weighted_p:  10.950346020761272
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0010
+confirm time:  91431694
+### weighted_p:  10.950346020761272
+CANCEL CONFIRM 2812 - A0010
+### weighted_p:  10.950346020761272
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0011
+confirm time:  91434475
+### weighted_p:  10.950346020761272
+SIM TIME 91435680
+CANCEL CONFIRM 2812 - A0011
+### weighted_p:  10.950346020761272
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0012
+confirm time:  91438010
+### weighted_p:  10.950346020761272
+CANCEL CONFIRM 2812 - A0012
+### weighted_p:  10.950346020761272
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0013
+confirm time:  91440661
+### weighted_p:  10.950346020761272
+CANCEL CONFIRM 2812 - A0013
+### weighted_p:  10.950346020761272
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0014
+confirm time:  91447694
+### weighted_p:  10.950346020761272
+CANCEL CONFIRM 2812 - A0014
+### weighted_p:  10.950346020761272
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0015
+confirm time:  91449630
+### weighted_p:  10.95017241379313
+CANCEL CONFIRM 2812 - A0015
+### weighted_p:  10.950344827586234
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0016
+confirm time:  91543267
+### weighted_p:  10.95034364261171
+CANCEL CONFIRM 2812 - A0016
+### weighted_p:  10.95034364261171
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0017
+confirm time:  91554447
+### weighted_p:  10.95034364261171
+CANCEL CONFIRM 2812 - A0017
+### weighted_p:  10.95034364261171
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0018
+confirm time:  91603054
+### weighted_p:  10.95034364261171
+CANCEL CONFIRM 2812 - A0018
+### weighted_p:  10.95034364261171
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0019
+confirm time:  91613884
+### weighted_p:  10.95034364261171
+CANCEL CONFIRM 2812 - A0019
+### weighted_p:  10.95034364261171
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0020
+confirm time:  91623730
+### weighted_p:  10.95034364261171
+CANCEL CONFIRM 2812 - A0020
+### weighted_p:  10.95034364261171
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0021
+confirm time:  91627469
+### weighted_p:  10.95034364261171
+CANCEL CONFIRM 2812 - A0021
+### weighted_p:  10.95034364261171
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0022
+confirm time:  91644088
+### weighted_p:  10.950337837837862
+CANCEL CONFIRM 2812 - A0022
+### weighted_p:  10.950314465408828
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0023
+confirm time:  91650375
+### weighted_p:  10.950312500000024
+CANCEL CONFIRM 2812 - A0023
+### weighted_p:  10.950317460317484
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0024
+confirm time:  91654785
+### weighted_p:  10.950317460317484
+CANCEL CONFIRM 2812 - A0024
+### weighted_p:  10.950317460317484
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0025
+confirm time:  91700595
+### weighted_p:  10.950309597523244
+CANCEL CONFIRM 2812 - A0025
+### weighted_p:  10.950309597523244
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0026
+confirm time:  91731707
+### weighted_p:  10.950308641975333
+CANCEL CONFIRM 2812 - A0026
+### weighted_p:  10.950309597523244
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0027
+confirm time:  91755233
+### weighted_p:  10.950309597523244
+CANCEL CONFIRM 2812 - A0027
+### weighted_p:  10.950309597523244
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0028
+confirm time:  91802181
+### weighted_p:  10.950309597523244
+CANCEL CONFIRM 2812 - A0028
+### weighted_p:  10.950309597523244
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0029
+confirm time:  91815401
+### weighted_p:  10.950309597523244
+CANCEL CONFIRM 2812 - A0029
+### weighted_p:  10.950319488817916
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0030
+confirm time:  91822646
+### weighted_p:  10.950319488817916
+CANCEL CONFIRM 2812 - A0030
+### weighted_p:  10.950319488817916
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0031
+confirm time:  91842517
+### weighted_p:  10.950322580645185
+CANCEL CONFIRM 2812 - A0031
+### weighted_p:  10.950322580645185
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0032
+confirm time:  91910378
+### weighted_p:  10.950321543408386
+CANCEL CONFIRM 2812 - A0032
+### weighted_p:  10.950305810397577
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0033
+confirm time:  92250788
+### weighted_p:  10.950566037735882
+CANCEL CONFIRM 2812 - A0033
+### weighted_p:  10.950566037735882
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0034
+confirm time:  92309833
+### weighted_p:  10.950566037735882
+CANCEL CONFIRM 2812 - A0034
+### weighted_p:  10.950549450549483
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0035
+confirm time:  92320079
+### weighted_p:  10.950549450549483
+CANCEL CONFIRM 2812 - A0035
+### weighted_p:  10.950559701492569
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0036
+confirm time:  92337211
+### weighted_p:  10.950559701492569
+CANCEL CONFIRM 2812 - A0036
+### weighted_p:  10.950559701492569
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0037
+confirm time:  92342829
+### weighted_p:  10.950559701492569
+CANCEL CONFIRM 2812 - A0037
+### weighted_p:  10.950559701492569
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0038
+confirm time:  92352454
+### weighted_p:  10.950559701492569
+CANCEL CONFIRM 2812 - A0038
+### weighted_p:  10.950559701492569
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0039
+confirm time:  92401078
+### weighted_p:  10.950559701492569
+CANCEL CONFIRM 2812 - A0039
+### weighted_p:  10.950559701492569
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0040
+confirm time:  92405263
+### weighted_p:  10.950541516245519
+CANCEL CONFIRM 2812 - A0040
+### weighted_p:  10.950537634408635
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0041
+confirm time:  92407508
+### weighted_p:  10.950537634408635
+NEW CONFIRM 2812 B 50 @ 10.95 - A0042
+confirm time:  92407508
+### weighted_p:  10.950537634408635
+CANCEL CONFIRM 2812 - A0041
+### weighted_p:  10.950537634408635
+CANCEL CONFIRM 2812 - A0042
+### weighted_p:  10.950537634408635
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0043
+confirm time:  92422212
+### weighted_p:  10.950537634408635
+CANCEL CONFIRM 2812 - A0043
+### weighted_p:  10.950537634408635
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0044
+confirm time:  92427575
+### weighted_p:  10.950537634408635
+CANCEL CONFIRM 2812 - A0044
+### weighted_p:  10.950537634408635
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0045
+confirm time:  92436044
+### weighted_p:  10.950537634408635
+CANCEL CONFIRM 2812 - A0045
+### weighted_p:  10.950537634408635
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0046
+confirm time:  92447159
+### weighted_p:  10.950537634408635
+CANCEL CONFIRM 2812 - A0046
+### weighted_p:  10.950537634408635
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0047
+confirm time:  92458145
+### weighted_p:  10.950537634408635
+CANCEL CONFIRM 2812 - A0047
+### weighted_p:  10.950537634408635
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0048
+confirm time:  92501522
+### weighted_p:  10.950537634408635
+CANCEL CONFIRM 2812 - A0048
+### weighted_p:  10.950537634408635
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0049
+confirm time:  92513645
+### weighted_p:  10.950537634408635
+CANCEL CONFIRM 2812 - A0049
+### weighted_p:  10.950537634408635
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0050
+confirm time:  92524406
+### weighted_p:  10.950537634408635
+CANCEL CONFIRM 2812 - A0050
+### weighted_p:  10.950537634408635
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0051
+confirm time:  92538618
+### weighted_p:  10.950533807829213
+CANCEL CONFIRM 2812 - A0051
+### weighted_p:  10.950568181818216
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0052
+confirm time:  92551143
+### weighted_p:  10.950568181818216
+CANCEL CONFIRM 2812 - A0052
+### weighted_p:  10.950561797752842
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0053
+confirm time:  92604281
+### weighted_p:  10.950561797752842
+CANCEL CONFIRM 2812 - A0053
+### weighted_p:  10.950579150579186
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0054
+confirm time:  92607773
+### weighted_p:  10.950383141762487
+CANCEL CONFIRM 2812 - A0054
+### weighted_p:  10.950383141762487
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0055
+confirm time:  92612460
+### weighted_p:  10.950383141762487
+CANCEL CONFIRM 2812 - A0055
+### weighted_p:  10.950383141762487
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0056
+confirm time:  92620361
+### weighted_p:  10.950383141762487
+CANCEL CONFIRM 2812 - A0056
+### weighted_p:  10.950383141762487
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0057
+confirm time:  92629855
+### weighted_p:  10.950383141762487
+CANCEL CONFIRM 2812 - A0057
+### weighted_p:  10.950383141762487
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0058
+confirm time:  92639842
+### weighted_p:  10.950386100386135
+CANCEL CONFIRM 2812 - A0058
+### weighted_p:  10.950386100386135
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0059
+confirm time:  92700897
+### weighted_p:  10.950386100386135
+CANCEL CONFIRM 2812 - A0059
+### weighted_p:  10.950386100386135
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0060
+confirm time:  92704137
+### weighted_p:  10.950592885375528
+CANCEL CONFIRM 2812 - A0060
+### weighted_p:  10.950592885375528
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0061
+confirm time:  92711100
+### weighted_p:  10.950793650793685
+CANCEL CONFIRM 2812 - A0061
+### weighted_p:  10.950996015936289
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0062
+confirm time:  92727705
+### weighted_p:  10.950996015936289
+CANCEL CONFIRM 2812 - A0062
+### weighted_p:  10.950996015936289
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0063
+confirm time:  92732213
+### weighted_p:  10.950996015936289
+CANCEL CONFIRM 2812 - A0063
+### weighted_p:  10.950996015936289
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0064
+confirm time:  92741657
+### weighted_p:  10.950996015936289
+CANCEL CONFIRM 2812 - A0064
+### weighted_p:  10.950996015936289
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0065
+confirm time:  92753437
+### weighted_p:  10.950996015936289
+CANCEL CONFIRM 2812 - A0065
+### weighted_p:  10.950996015936289
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0066
+confirm time:  92805421
+### weighted_p:  10.950996015936289
+CANCEL CONFIRM 2812 - A0066
+### weighted_p:  10.950932835820927
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0067
+confirm time:  92809119
+### weighted_p:  10.950932835820927
+CANCEL CONFIRM 2812 - A0067
+### weighted_p:  10.950932835820927
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0068
+confirm time:  92813090
+### weighted_p:  10.950932835820927
+CANCEL CONFIRM 2812 - A0068
+### weighted_p:  10.950932835820927
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0069
+confirm time:  92825193
+### weighted_p:  10.950932835820927
+CANCEL CONFIRM 2812 - A0069
+### weighted_p:  10.950932835820927
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0070
+confirm time:  92846906
+### weighted_p:  10.950932835820927
+CANCEL CONFIRM 2812 - A0070
+### weighted_p:  10.950932835820927
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0071
+confirm time:  92901697
+### weighted_p:  10.950932835820927
+CANCEL CONFIRM 2812 - A0071
+### weighted_p:  10.950932835820927
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0072
+confirm time:  92914476
+### weighted_p:  10.950932835820927
+CANCEL CONFIRM 2812 - A0072
+### weighted_p:  10.950939849624092
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0073
+confirm time:  92916323
+### weighted_p:  10.950939849624092
+CANCEL CONFIRM 2812 - A0073
+### weighted_p:  10.950939849624092
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0074
+confirm time:  92920512
+### weighted_p:  10.950922509225123
+CANCEL CONFIRM 2812 - A0074
+### weighted_p:  10.950922509225123
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0075
+confirm time:  92927091
+### weighted_p:  10.950946969697002
+CANCEL CONFIRM 2812 - A0075
+### weighted_p:  10.950946969697002
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0076
+confirm time:  92945431
+### weighted_p:  10.950946969697002
+CANCEL CONFIRM 2812 - A0076
+### weighted_p:  10.950946969697002
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0077
+confirm time:  93021298
+### weighted_p:  10.950946969697002
+CANCEL CONFIRM 2812 - A0077
+### weighted_p:  10.950946969697002
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0078
+confirm time:  93033877
+### weighted_p:  10.950946969697002
+CANCEL CONFIRM 2812 - A0078
+### weighted_p:  10.950915750915783
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0079
+confirm time:  93037658
+### weighted_p:  10.950915750915783
+CANCEL CONFIRM 2812 - A0079
+### weighted_p:  10.950889679715333
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0080
+confirm time:  93050952
+### weighted_p:  10.950862068965547
+CANCEL CONFIRM 2812 - A0080
+### weighted_p:  10.950862068965547
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0081
+confirm time:  93106014
+### weighted_p:  10.950862068965547
+CANCEL CONFIRM 2812 - A0081
+### weighted_p:  10.950862068965547
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0082
+confirm time:  93112285
+### weighted_p:  10.950862068965547
+CANCEL CONFIRM 2812 - A0082
+### weighted_p:  10.950862068965547
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0083
+confirm time:  93115115
+### weighted_p:  10.950862068965547
+CANCEL CONFIRM 2812 - A0083
+### weighted_p:  10.950862068965547
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0084
+confirm time:  93137995
+### weighted_p:  10.950865051903145
+CANCEL CONFIRM 2812 - A0084
+### weighted_p:  10.950865051903145
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0085
+confirm time:  93145807
+### weighted_p:  10.950865051903145
+CANCEL CONFIRM 2812 - A0085
+### weighted_p:  10.950865051903145
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0086
+confirm time:  93154995
+### weighted_p:  10.950868055555585
+CANCEL CONFIRM 2812 - A0086
+### weighted_p:  10.950868055555585
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0087
+confirm time:  93202032
+### weighted_p:  10.950689655172443
+CANCEL CONFIRM 2812 - A0087
+### weighted_p:  10.950689655172443
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0088
+confirm time:  93216195
+### weighted_p:  10.950689655172443
+CANCEL CONFIRM 2812 - A0088
+### weighted_p:  10.950689655172443
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0089
+confirm time:  93225321
+### weighted_p:  10.950689655172443
+CANCEL CONFIRM 2812 - A0089
+### weighted_p:  10.950689655172443
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0090
+confirm time:  93237030
+### weighted_p:  10.950689655172443
+CANCEL CONFIRM 2812 - A0090
+### weighted_p:  10.950694444444473
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0091
+confirm time:  93244625
+### weighted_p:  10.950892857142886
+CANCEL CONFIRM 2812 - A0091
+### weighted_p:  10.950892857142886
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0092
+confirm time:  93252715
+### weighted_p:  10.950892857142886
+CANCEL CONFIRM 2812 - A0092
+### weighted_p:  10.950892857142886
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0093
+confirm time:  93256769
+### weighted_p:  10.951119402985105
+CANCEL CONFIRM 2812 - A0093
+### weighted_p:  10.951119402985105
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0094
+confirm time:  93300322
+### weighted_p:  10.951119402985105
+CANCEL CONFIRM 2812 - A0094
+### weighted_p:  10.951119402985105
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0095
+confirm time:  93306867
+### weighted_p:  10.951119402985105
+CANCEL CONFIRM 2812 - A0095
+### weighted_p:  10.951119402985105
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0096
+confirm time:  93319069
+### weighted_p:  10.951119402985105
+CANCEL CONFIRM 2812 - A0096
+### weighted_p:  10.951422764227676
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0097
+confirm time:  93322351
+### weighted_p:  10.951422764227676
+CANCEL CONFIRM 2812 - A0097
+### weighted_p:  10.951422764227676
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0098
+confirm time:  93332556
+### weighted_p:  10.951639344262329
+CANCEL CONFIRM 2812 - A0098
+### weighted_p:  10.951639344262329
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0099
+confirm time:  93334993
+### weighted_p:  10.951639344262329
+CANCEL CONFIRM 2812 - A0099
+### weighted_p:  10.951639344262329
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0100
+confirm time:  93348992
+### weighted_p:  10.951639344262329
+CANCEL CONFIRM 2812 - A0100
+### weighted_p:  10.951639344262329
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0101
+confirm time:  93354819
+### weighted_p:  10.951639344262329
+CANCEL CONFIRM 2812 - A0101
+### weighted_p:  10.951639344262329
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0102
+confirm time:  93420434
+### weighted_p:  10.951639344262329
+CANCEL CONFIRM 2812 - A0102
+### weighted_p:  10.951639344262329
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0103
+confirm time:  93426676
+### weighted_p:  10.951844262295117
+CANCEL CONFIRM 2812 - A0103
+### weighted_p:  10.951844262295117
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0104
+confirm time:  93435148
+### weighted_p:  10.951844262295117
+CANCEL CONFIRM 2812 - A0104
+### weighted_p:  10.951844262295117
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0105
+confirm time:  93438616
+### weighted_p:  10.951844262295117
+CANCEL CONFIRM 2812 - A0105
+### weighted_p:  10.951844262295117
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0106
+confirm time:  93443671
+### weighted_p:  10.951844262295117
+CANCEL CONFIRM 2812 - A0106
+### weighted_p:  10.951844262295117
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0107
+confirm time:  93457180
+### weighted_p:  10.951844262295117
+CANCEL CONFIRM 2812 - A0107
+### weighted_p:  10.952127659574504
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0108
+confirm time:  93503220
+### weighted_p:  10.952127659574504
+CANCEL CONFIRM 2812 - A0108
+### weighted_p:  10.952127659574504
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0109
+confirm time:  93539040
+### weighted_p:  10.952127659574504
+CANCEL CONFIRM 2812 - A0109
+### weighted_p:  10.952127659574504
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0110
+confirm time:  93546295
+### weighted_p:  10.952127659574504
+CANCEL CONFIRM 2812 - A0110
+### weighted_p:  10.952127659574504
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0111
+confirm time:  93615081
+### weighted_p:  10.952127659574504
+CANCEL CONFIRM 2812 - A0111
+### weighted_p:  10.952127659574504
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0112
+confirm time:  93621210
+### weighted_p:  10.952127659574504
+CANCEL CONFIRM 2812 - A0112
+### weighted_p:  10.952127659574504
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0113
+confirm time:  93639718
+### weighted_p:  10.952127659574504
+CANCEL CONFIRM 2812 - A0113
+### weighted_p:  10.952127659574504
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0114
+confirm time:  93644783
+### weighted_p:  10.952127659574504
+CANCEL CONFIRM 2812 - A0114
+### weighted_p:  10.952127659574504
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0115
+confirm time:  93649339
+### weighted_p:  10.95205761316876
+CANCEL CONFIRM 2812 - A0115
+### weighted_p:  10.95205761316876
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0116
+confirm time:  93654479
+### weighted_p:  10.95205761316876
+CANCEL CONFIRM 2812 - A0116
+### weighted_p:  10.95205761316876
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0117
+confirm time:  93701368
+### weighted_p:  10.952032520325238
+CANCEL CONFIRM 2812 - A0117
+### weighted_p:  10.952032520325238
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0118
+confirm time:  93709825
+### weighted_p:  10.952032520325238
+CANCEL CONFIRM 2812 - A0118
+### weighted_p:  10.952032520325238
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0119
+confirm time:  93719129
+### weighted_p:  10.951915708812294
+CANCEL CONFIRM 2812 - A0119
+### weighted_p:  10.951901140684443
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0120
+confirm time:  93725083
+### weighted_p:  10.951901140684443
+CANCEL CONFIRM 2812 - A0120
+### weighted_p:  10.951901140684443
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0121
+confirm time:  93727735
+### weighted_p:  10.951901140684443
+CANCEL CONFIRM 2812 - A0121
+### weighted_p:  10.951901140684443
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0122
+confirm time:  93739750
+### weighted_p:  10.951901140684443
+CANCEL CONFIRM 2812 - A0122
+### weighted_p:  10.951901140684443
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0123
+confirm time:  93800512
+### weighted_p:  10.951901140684443
+CANCEL CONFIRM 2812 - A0123
+### weighted_p:  10.951901140684443
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0124
+confirm time:  93806613
+### weighted_p:  10.951901140684443
+CANCEL CONFIRM 2812 - A0124
+### weighted_p:  10.951901140684443
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0125
+confirm time:  93815093
+### weighted_p:  10.951901140684443
+CANCEL CONFIRM 2812 - A0125
+### weighted_p:  10.951901140684443
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0126
+confirm time:  93828616
+### weighted_p:  10.951901140684443
+CANCEL CONFIRM 2812 - A0126
+### weighted_p:  10.951901140684443
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0127
+confirm time:  93839310
+### weighted_p:  10.951976284585013
+CANCEL CONFIRM 2812 - A0127
+### weighted_p:  10.952500000000034
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0128
+confirm time:  93840771
+### weighted_p:  10.952500000000034
+CANCEL CONFIRM 2812 - A0128
+### weighted_p:  10.952480916030568
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0129
+confirm time:  93848435
+### weighted_p:  10.952480916030568
+CANCEL CONFIRM 2812 - A0129
+### weighted_p:  10.952480916030568
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0130
+confirm time:  93908743
+### weighted_p:  10.952480916030568
+CANCEL CONFIRM 2812 - A0130
+### weighted_p:  10.952480916030568
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0131
+confirm time:  93913860
+### weighted_p:  10.952480916030568
+CANCEL CONFIRM 2812 - A0131
+### weighted_p:  10.952480916030568
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0132
+confirm time:  93915761
+### weighted_p:  10.952480916030568
+CANCEL CONFIRM 2812 - A0132
+### weighted_p:  10.952480916030568
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0133
+confirm time:  93934997
+### weighted_p:  10.952480916030568
+CANCEL CONFIRM 2812 - A0133
+### weighted_p:  10.953474903474937
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0134
+confirm time:  93938774
+### weighted_p:  10.953474903474937
+CANCEL CONFIRM 2812 - A0134
+### weighted_p:  10.953474903474937
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0135
+confirm time:  93943201
+### weighted_p:  10.953474903474937
+CANCEL CONFIRM 2812 - A0135
+### weighted_p:  10.953474903474937
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0136
+confirm time:  93952057
+### weighted_p:  10.953600000000035
+CANCEL CONFIRM 2812 - A0136
+### weighted_p:  10.953600000000035
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0137
+confirm time:  94008288
+### weighted_p:  10.953386454183303
+CANCEL CONFIRM 2812 - A0137
+### weighted_p:  10.953174603174638
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0138
+confirm time:  94013870
+### weighted_p:  10.953200000000034
+CANCEL CONFIRM 2812 - A0138
+### weighted_p:  10.953200000000034
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0139
+confirm time:  94024570
+### weighted_p:  10.953200000000034
+CANCEL CONFIRM 2812 - A0139
+### weighted_p:  10.9529880478088
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0140
+confirm time:  94031730
+### weighted_p:  10.9529880478088
+CANCEL CONFIRM 2812 - A0140
+### weighted_p:  10.9529880478088
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0141
+confirm time:  94047585
+### weighted_p:  10.9529880478088
+CANCEL CONFIRM 2812 - A0141
+### weighted_p:  10.9529880478088
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0142
+confirm time:  94054265
+### weighted_p:  10.952976190476226
+CANCEL CONFIRM 2812 - A0142
+### weighted_p:  10.952976190476226
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0143
+confirm time:  94058325
+### weighted_p:  10.95317460317464
+CANCEL CONFIRM 2812 - A0143
+### weighted_p:  10.95317460317464
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0144
+confirm time:  94112133
+### weighted_p:  10.95317460317464
+CANCEL CONFIRM 2812 - A0144
+### weighted_p:  10.95317460317464
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0145
+confirm time:  94123761
+### weighted_p:  10.95317460317464
+CANCEL CONFIRM 2812 - A0145
+### weighted_p:  10.95317460317464
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0146
+confirm time:  94137287
+### weighted_p:  10.95317460317464
+CANCEL CONFIRM 2812 - A0146
+### weighted_p:  10.95317460317464
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0147
+confirm time:  94140467
+### weighted_p:  10.95411764705886
+CANCEL CONFIRM 2812 - A0147
+### weighted_p:  10.95411764705886
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0148
+confirm time:  94142731
+### weighted_p:  10.95411764705886
+CANCEL CONFIRM 2812 - A0148
+### weighted_p:  10.95411764705886
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0149
+confirm time:  94147939
+### weighted_p:  10.954133858267753
+CANCEL CONFIRM 2812 - A0149
+### weighted_p:  10.954133858267753
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0150
+confirm time:  94152837
+### weighted_p:  10.954133858267753
+CANCEL CONFIRM 2812 - A0150
+### weighted_p:  10.954133858267753
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0151
+confirm time:  94217495
+### weighted_p:  10.954133858267753
+CANCEL CONFIRM 2812 - A0151
+### weighted_p:  10.954133858267753
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0152
+confirm time:  94245674
+### weighted_p:  10.954117647058858
+CANCEL CONFIRM 2812 - A0152
+### weighted_p:  10.954117647058858
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0153
+confirm time:  94253944
+### weighted_p:  10.954117647058858
+CANCEL CONFIRM 2812 - A0153
+### weighted_p:  10.954117647058858
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0154
+confirm time:  94258648
+### weighted_p:  10.954117647058858
+CANCEL CONFIRM 2812 - A0154
+### weighted_p:  10.954117647058858
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0155
+confirm time:  94302629
+### weighted_p:  10.954117647058858
+CANCEL CONFIRM 2812 - A0155
+### weighted_p:  10.954117647058858
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0156
+confirm time:  94315914
+### weighted_p:  10.954117647058858
+CANCEL CONFIRM 2812 - A0156
+### weighted_p:  10.95318725099605
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0157
+confirm time:  94323765
+### weighted_p:  10.95318725099605
+CANCEL CONFIRM 2812 - A0157
+### weighted_p:  10.95318725099605
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0158
+confirm time:  94336963
+### weighted_p:  10.95318725099605
+CANCEL CONFIRM 2812 - A0158
+### weighted_p:  10.95318725099605
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0159
+confirm time:  94353322
+### weighted_p:  10.95318725099605
+CANCEL CONFIRM 2812 - A0159
+### weighted_p:  10.95318725099605
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0160
+confirm time:  94429281
+### weighted_p:  10.95318725099605
+CANCEL CONFIRM 2812 - A0160
+### weighted_p:  10.95318725099605
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0161
+confirm time:  94431430
+### weighted_p:  10.95318725099605
+CANCEL CONFIRM 2812 - A0161
+### weighted_p:  10.953292181069994
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0162
+confirm time:  94446409
+### weighted_p:  10.952640264026432
+CANCEL CONFIRM 2812 - A0162
+### weighted_p:  10.952702702702732
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0163
+confirm time:  94454771
+### weighted_p:  10.952702702702732
+CANCEL CONFIRM 2812 - A0163
+### weighted_p:  10.952702702702732
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0164
+confirm time:  94500685
+### weighted_p:  10.952702702702732
+CANCEL CONFIRM 2812 - A0164
+### weighted_p:  10.952702702702732
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0165
+confirm time:  94524642
+### weighted_p:  10.952702702702732
+NEW CONFIRM 2812 B 50 @ 10.95 - A0166
+confirm time:  94524642
+### weighted_p:  10.952702702702732
+CANCEL CONFIRM 2812 - A0165
+### weighted_p:  10.952702702702732
+CANCEL CONFIRM 2812 - A0166
+### weighted_p:  10.952702702702732
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0167
+confirm time:  94528455
+### weighted_p:  10.952702702702732
+CANCEL CONFIRM 2812 - A0167
+### weighted_p:  10.952702702702732
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0168
+confirm time:  94530375
+### weighted_p:  10.952702702702732
+CANCEL CONFIRM 2812 - A0168
+### weighted_p:  10.95271186440681
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0169
+confirm time:  94540144
+### weighted_p:  10.95271186440681
+CANCEL CONFIRM 2812 - A0169
+### weighted_p:  10.95271186440681
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0170
+confirm time:  94604224
+### weighted_p:  10.95271186440681
+CANCEL CONFIRM 2812 - A0170
+### weighted_p:  10.95271186440681
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+SIM TIME 94611173
+NEW CONFIRM 2812 B 50 @ 10.95 - A0171
+confirm time:  94611173
+### weighted_p:  10.95271186440681
+CANCEL CONFIRM 2812 - A0171
+### weighted_p:  10.95273037542665
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0172
+confirm time:  94618364
+### weighted_p:  10.95273037542665
+CANCEL CONFIRM 2812 - A0172
+### weighted_p:  10.95273037542665
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0173
+confirm time:  94640822
+### weighted_p:  10.95273037542665
+CANCEL CONFIRM 2812 - A0173
+### weighted_p:  10.95273037542665
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0174
+confirm time:  94657929
+### weighted_p:  10.95273037542665
+CANCEL CONFIRM 2812 - A0174
+### weighted_p:  10.95273037542665
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0175
+confirm time:  94714495
+### weighted_p:  10.952721088435405
+CANCEL CONFIRM 2812 - A0175
+### weighted_p:  10.952702702702734
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0176
+confirm time:  94731361
+### weighted_p:  10.952702702702734
+CANCEL CONFIRM 2812 - A0176
+### weighted_p:  10.952702702702734
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0177
+confirm time:  94741365
+### weighted_p:  10.952702702702734
+CANCEL CONFIRM 2812 - A0177
+### weighted_p:  10.952702702702734
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0178
+confirm time:  94758845
+### weighted_p:  10.952749140893502
+CANCEL CONFIRM 2812 - A0178
+### weighted_p:  10.952749140893502
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0179
+confirm time:  94810079
+### weighted_p:  10.952749140893502
+CANCEL CONFIRM 2812 - A0179
+### weighted_p:  10.952749140893502
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0180
+confirm time:  94815052
+### weighted_p:  10.95204603580565
+CANCEL CONFIRM 2812 - A0180
+### weighted_p:  10.951990049751267
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0181
+confirm time:  94821316
+### weighted_p:  10.951789976133673
+CANCEL CONFIRM 2812 - A0181
+### weighted_p:  10.951789976133673
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0182
+confirm time:  94830592
+### weighted_p:  10.951789976133673
+CANCEL CONFIRM 2812 - A0182
+### weighted_p:  10.951789976133673
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0183
+confirm time:  94845259
+### weighted_p:  10.951789976133673
+CANCEL CONFIRM 2812 - A0183
+### weighted_p:  10.951789976133673
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0184
+confirm time:  94855483
+### weighted_p:  10.951635514018713
+CANCEL CONFIRM 2812 - A0184
+### weighted_p:  10.951635514018713
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0185
+confirm time:  94857345
+### weighted_p:  10.951518691588806
+CANCEL CONFIRM 2812 - A0185
+### weighted_p:  10.951518691588806
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0186
+confirm time:  94934950
+### weighted_p:  10.951518691588806
+CANCEL CONFIRM 2812 - A0186
+### weighted_p:  10.951573849878956
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0187
+confirm time:  94939218
+### weighted_p:  10.951573849878956
+CANCEL CONFIRM 2812 - A0187
+### weighted_p:  10.951573849878956
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0188
+confirm time:  94959343
+### weighted_p:  10.951573849878956
+CANCEL CONFIRM 2812 - A0188
+### weighted_p:  10.951573849878956
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0189
+confirm time:  95008150
+### weighted_p:  10.951573849878956
+CANCEL CONFIRM 2812 - A0189
+### weighted_p:  10.951600985221699
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0190
+confirm time:  95015572
+### weighted_p:  10.951600985221699
+CANCEL CONFIRM 2812 - A0190
+### weighted_p:  10.951600985221699
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0191
+confirm time:  95027501
+### weighted_p:  10.951600985221699
+CANCEL CONFIRM 2812 - A0191
+### weighted_p:  10.951600985221699
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0192
+confirm time:  95059966
+### weighted_p:  10.951600985221699
+CANCEL CONFIRM 2812 - A0192
+### weighted_p:  10.951600985221699
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0193
+confirm time:  95105581
+### weighted_p:  10.951600985221699
+CANCEL CONFIRM 2812 - A0193
+### weighted_p:  10.951600985221699
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0194
+confirm time:  95118162
+### weighted_p:  10.951600985221699
+CANCEL CONFIRM 2812 - A0194
+### weighted_p:  10.951600985221699
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0195
+confirm time:  95126394
+### weighted_p:  10.951600985221699
+CANCEL CONFIRM 2812 - A0195
+### weighted_p:  10.951767676767698
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0196
+confirm time:  95128475
+### weighted_p:  10.951767676767698
+CANCEL CONFIRM 2812 - A0196
+### weighted_p:  10.951799485861207
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0197
+confirm time:  95139110
+### weighted_p:  10.951799485861207
+CANCEL CONFIRM 2812 - A0197
+### weighted_p:  10.951799485861207
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0198
+confirm time:  95141814
+### weighted_p:  10.951799485861207
+CANCEL CONFIRM 2812 - A0198
+### weighted_p:  10.951799485861207
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0199
+confirm time:  95203205
+### weighted_p:  10.951799485861207
+CANCEL CONFIRM 2812 - A0199
+### weighted_p:  10.951799485861207
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0200
+confirm time:  95206522
+### weighted_p:  10.951799485861207
+CANCEL CONFIRM 2812 - A0200
+### weighted_p:  10.951799485861207
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0201
+confirm time:  95216150
+### weighted_p:  10.951799485861207
+CANCEL CONFIRM 2812 - A0201
+### weighted_p:  10.951799485861207
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0202
+confirm time:  95235467
+### weighted_p:  10.95184210526318
+CANCEL CONFIRM 2812 - A0202
+### weighted_p:  10.951832460733007
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0203
+confirm time:  95240618
+### weighted_p:  10.951832460733007
+CANCEL CONFIRM 2812 - A0203
+### weighted_p:  10.951842105263179
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0204
+confirm time:  95300789
+### weighted_p:  10.951842105263179
+CANCEL CONFIRM 2812 - A0204
+### weighted_p:  10.951842105263179
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0205
+confirm time:  95311622
+### weighted_p:  10.951842105263179
+CANCEL CONFIRM 2812 - A0205
+### weighted_p:  10.951842105263179
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0206
+confirm time:  95332447
+### weighted_p:  10.95171052631581
+CANCEL CONFIRM 2812 - A0206
+### weighted_p:  10.95171052631581
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0207
+confirm time:  95339666
+### weighted_p:  10.95171052631581
+CANCEL CONFIRM 2812 - A0207
+### weighted_p:  10.951837270341228
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0208
+confirm time:  95359295
+### weighted_p:  10.951837270341228
+CANCEL CONFIRM 2812 - A0208
+### weighted_p:  10.951837270341228
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0209
+confirm time:  95416542
+### weighted_p:  10.951837270341228
+CANCEL CONFIRM 2812 - A0209
+### weighted_p:  10.952337662337683
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0210
+confirm time:  95421715
+### weighted_p:  10.952337662337683
+CANCEL CONFIRM 2812 - A0210
+### weighted_p:  10.952088452088471
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0211
+confirm time:  95425332
+### weighted_p:  10.952088452088471
+CANCEL CONFIRM 2812 - A0211
+### weighted_p:  10.952088452088471
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0212
+confirm time:  95427953
+### weighted_p:  10.952088452088471
+CANCEL CONFIRM 2812 - A0212
+### weighted_p:  10.952088452088471
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0213
+confirm time:  95433248
+### weighted_p:  10.951941747572835
+CANCEL CONFIRM 2812 - A0213
+### weighted_p:  10.951941747572835
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0214
+confirm time:  95446157
+### weighted_p:  10.951941747572835
+CANCEL CONFIRM 2812 - A0214
+### weighted_p:  10.951802884615404
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0215
+confirm time:  95456711
+### weighted_p:  10.951802884615404
+CANCEL CONFIRM 2812 - A0215
+### weighted_p:  10.951802884615404
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0216
+confirm time:  95506119
+### weighted_p:  10.951802884615404
+CANCEL CONFIRM 2812 - A0216
+### weighted_p:  10.951802884615404
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0217
+confirm time:  95511212
+### weighted_p:  10.95184275184277
+CANCEL CONFIRM 2812 - A0217
+### weighted_p:  10.951861042183642
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0218
+confirm time:  95512992
+### weighted_p:  10.951861042183642
+CANCEL CONFIRM 2812 - A0218
+### weighted_p:  10.951861042183642
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0219
+confirm time:  95518000
+### weighted_p:  10.951861042183642
+CANCEL CONFIRM 2812 - A0219
+### weighted_p:  10.951861042183642
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0220
+confirm time:  95547125
+### weighted_p:  10.951861042183642
+CANCEL CONFIRM 2812 - A0220
+### weighted_p:  10.951861042183642
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0221
+confirm time:  95554479
+### weighted_p:  10.951932989690741
+CANCEL CONFIRM 2812 - A0221
+### weighted_p:  10.951847290640412
+CANCEL_REJECT 2812 B - A0221
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0222
+confirm time:  95732873
+### weighted_p:  10.951747311827974
+CANCEL CONFIRM 2812 - A0222
+### weighted_p:  10.951747311827974
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0223
+confirm time:  95738266
+### weighted_p:  10.951747311827974
+CANCEL CONFIRM 2812 - A0223
+### weighted_p:  10.951747311827974
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0224
+confirm time:  95847382
+### weighted_p:  10.95162094763094
+CANCEL CONFIRM 2812 - A0224
+### weighted_p:  10.95162094763094
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0225
+confirm time:  95850359
+### weighted_p:  10.95162094763094
+CANCEL CONFIRM 2812 - A0225
+### weighted_p:  10.95162094763094
+SIM TIME 104732502
+CANCEL CONFIRM 2812 - A0002
+### weighted_p:  10.905425219941362
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.9 - A0226
+confirm time:  110916011
+### weighted_p:  10.90527859237538
+CANCEL CONFIRM 2812 - A0226
+### weighted_p:  10.90527859237538
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.9 - A0227
+confirm time:  110952809
+### weighted_p:  10.90527859237538
+CANCEL CONFIRM 2812 - A0227
+### weighted_p:  10.90527859237538
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.9 - A0228
+confirm time:  110958251
+### weighted_p:  10.90527859237538
+CANCEL CONFIRM 2812 - A0228
+### weighted_p:  10.90527859237538
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.9 - A0229
+confirm time:  111012685
+### weighted_p:  10.90527859237538
+CANCEL CONFIRM 2812 - A0229
+### weighted_p:  10.90527859237538
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.9 - A0230
+confirm time:  111111329
+### weighted_p:  10.90527859237538
+CANCEL CONFIRM 2812 - A0230
+### weighted_p:  10.90527859237538
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.9 - A0231
+confirm time:  111217169
+### weighted_p:  10.90527859237538
+CANCEL CONFIRM 2812 - A0231
+### weighted_p:  10.90527859237538
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.9 - A0232
+confirm time:  111237940
+### weighted_p:  10.90527859237538
+CANCEL CONFIRM 2812 - A0232
+### weighted_p:  10.90527859237538
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.9 - A0233
+confirm time:  111405177
+### weighted_p:  10.90527859237538
+CANCEL CONFIRM 2812 - A0233
+### weighted_p:  10.90527859237538
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.9 - A0234
+confirm time:  111437336
+### weighted_p:  10.90527859237538
+CANCEL CONFIRM 2812 - A0234
+### weighted_p:  10.90527859237538
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.9 - A0235
+confirm time:  111534351
+### weighted_p:  10.90527859237538
+CANCEL CONFIRM 2812 - A0235
+### weighted_p:  10.90527859237538
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.9 - A0236
+confirm time:  111541308
+### weighted_p:  10.9051319648094
+CANCEL CONFIRM 2812 - A0236
+### weighted_p:  10.90432276657062
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.9 - A0237
+confirm time:  111558873
+### weighted_p:  10.90432276657062
+CANCEL CONFIRM 2812 - A0237
+### weighted_p:  10.905099150141659
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.9 - A0238
+confirm time:  111605273
+### weighted_p:  10.905157593123224
+CANCEL CONFIRM 2812 - A0238
+### weighted_p:  10.905157593123224
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.9 - A0239
+confirm time:  111623011
+### weighted_p:  10.905157593123224
+CANCEL CONFIRM 2812 - A0239
+### weighted_p:  10.905157593123224
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.9 - A0240
+confirm time:  111646671
+### weighted_p:  10.905157593123224
+CANCEL CONFIRM 2812 - A0240
+### weighted_p:  10.905157593123224
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.9 - A0241
+confirm time:  111735096
+### weighted_p:  10.905157593123224
+CANCEL CONFIRM 2812 - A0241
+### weighted_p:  10.905157593123224
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.9 - A0242
+confirm time:  111847930
+### weighted_p:  10.905013927576617
+CANCEL CONFIRM 2812 - A0242
+### weighted_p:  10.905013927576617
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.9 - A0243
+confirm time:  111850954
+### weighted_p:  10.904874651810601
+CANCEL CONFIRM 2812 - A0243
+### weighted_p:  10.904874651810601
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.9 - A0244
+confirm time:  111900052
+### weighted_p:  10.904874651810601
+CANCEL CONFIRM 2812 - A0244
+### weighted_p:  10.904874651810601
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.9 - A0245
+confirm time:  111952819
+### weighted_p:  10.904696132596701
+CANCEL CONFIRM 2812 - A0245
+### weighted_p:  10.907541899441357
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.9 - A0246
+confirm time:  111956168
+### weighted_p:  10.907361111111127
+CANCEL CONFIRM 2812 - A0001
+SIM TIME 125850899
+START EXIT 1
+Empty DataFrame
+Columns: [sid, status, oi, hp, hv]
+Index: []
+position_q -50
+CANCEL CONFIRM 2812 - A0246
+### weighted_p:  10.90765550239239
+NEW CONFIRM 2812 B 50 @ 99999.0 - A0247
+confirm time:  130000708
+### weighted_p:  10.90765550239239
+FILL 2812 B 50 @ 10.95 - A0247
+START EXIT 1
+Empty DataFrame
+Columns: [sid, status, oi, hp, hv]
+Index: []
+position_q 0
+----------Result Report--------------
+position_q 0
+buy_p [10.95]
+buy_q [50.]
+sell_p [10.95]
+sell_q [50.]
+sell_q_sum 50.0 buy_q_sum 50.0
+profit:  0.0
+cost:  547.5
+r 0.0

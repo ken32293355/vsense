@@ -1,0 +1,569 @@
+['2412']
+SIM REG LOB ['2412']
+SIM REG TICK ['2412']
+SIM TOTAL DATA LENGTH 5262
+SIM TIME 85500817
+self.qty_bound 50 num_order_ask1_q 0
+@in sell want to order 50
+**** order:  0 b4v:  978
+NEW CONFIRM 2412 S 50 @ 109.5 - A0000
+confirm time:  90009547
+### weighted_p:  0
+qty_bound 50 num_order_bid1_q 0
+@in buy want to order 50
+**** order:  1 b4v:  1076
+NEW CONFIRM 2412 B 50 @ 109.0 - A0001
+confirm time:  91719427
+### weighted_p:  109.21559633027523
+SIM TIME 92900447
+SIM TIME 101921184
+SIM TIME 105505946
+SIM TIME 112834772
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  2 b4v:  1733
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+NEW CONFIRM 2412 S 1 @ 109.5 - A0002
+confirm time:  114832762
+### weighted_p:  109.19411764705882
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  3 b4v:  1733
+NEW CONFIRM 2412 S 1 @ 109.5 - A0003
+confirm time:  114834088
+### weighted_p:  109.19411764705882
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+self.qty_bound 50 num_order_ask1_q 48
+@in sell want to order 2
+**** order:  4 b4v:  1731
+NEW CONFIRM 2412 S 2 @ 109.5 - A0004
+confirm time:  114850985
+### weighted_p:  109.2
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  5 b4v:  1730
+NEW CONFIRM 2412 S 1 @ 109.5 - A0005
+confirm time:  114914223
+### weighted_p:  109.19411764705882
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  6 b4v:  1728
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+NEW CONFIRM 2412 S 1 @ 109.5 - A0006
+confirm time:  114925003
+### weighted_p:  109.2
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  7 b4v:  1728
+NEW CONFIRM 2412 S 1 @ 109.5 - A0007
+confirm time:  114925545
+### weighted_p:  109.2
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  8 b4v:  1728
+NEW CONFIRM 2412 S 1 @ 109.5 - A0008
+confirm time:  114937205
+### weighted_p:  109.2
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+self.qty_bound 50 num_order_ask1_q 48
+@in sell want to order 2
+**** order:  9 b4v:  1726
+NEW CONFIRM 2412 S 2 @ 109.5 - A0009
+confirm time:  114945044
+### weighted_p:  109.21875
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  10 b4v:  1727
+NEW CONFIRM 2412 S 1 @ 109.5 - A0010
+confirm time:  114959491
+### weighted_p:  109.20253164556962
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  11 b4v:  1726
+NEW CONFIRM 2412 S 1 @ 109.5 - A0011
+confirm time:  115004890
+### weighted_p:  109.20886075949367
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  12 b4v:  1727
+NEW CONFIRM 2412 S 1 @ 109.5 - A0012
+confirm time:  115009955
+### weighted_p:  109.20886075949367
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  13 b4v:  1726
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+NEW CONFIRM 2412 S 1 @ 109.5 - A0013
+confirm time:  115021960
+### weighted_p:  109.21153846153847
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  14 b4v:  1726
+NEW CONFIRM 2412 S 1 @ 109.5 - A0014
+confirm time:  115022942
+### weighted_p:  109.21153846153847
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  15 b4v:  1725
+NEW CONFIRM 2412 S 1 @ 109.5 - A0015
+confirm time:  115039052
+### weighted_p:  109.21153846153847
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  16 b4v:  1730
+NEW CONFIRM 2412 S 1 @ 109.5 - A0016
+confirm time:  115057937
+### weighted_p:  109.2051282051282
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  17 b4v:  1729
+NEW CONFIRM 2412 S 1 @ 109.5 - A0017
+confirm time:  115108797
+### weighted_p:  109.2051282051282
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  18 b4v:  1728
+NEW CONFIRM 2412 S 1 @ 109.5 - A0018
+confirm time:  115114351
+### weighted_p:  109.2051282051282
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+self.qty_bound 50 num_order_ask1_q 48
+@in sell want to order 2
+**** order:  19 b4v:  1726
+NEW CONFIRM 2412 S 2 @ 109.5 - A0019
+confirm time:  115120389
+### weighted_p:  109.21794871794872
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  20 b4v:  1725
+NEW CONFIRM 2412 S 1 @ 109.5 - A0020
+confirm time:  115137927
+### weighted_p:  109.21153846153847
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  21 b4v:  1724
+NEW CONFIRM 2412 S 1 @ 109.5 - A0021
+confirm time:  115144927
+### weighted_p:  109.21153846153847
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  22 b4v:  1723
+NEW CONFIRM 2412 S 1 @ 109.5 - A0022
+confirm time:  115150815
+### weighted_p:  109.21153846153847
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  23 b4v:  1722
+NEW CONFIRM 2412 S 1 @ 109.5 - A0023
+confirm time:  115203695
+### weighted_p:  109.21153846153847
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  24 b4v:  1721
+NEW CONFIRM 2412 S 1 @ 109.5 - A0024
+confirm time:  115208867
+### weighted_p:  109.21153846153847
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  25 b4v:  1719
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+NEW CONFIRM 2412 S 1 @ 109.5 - A0025
+confirm time:  115226530
+### weighted_p:  109.21794871794872
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  26 b4v:  1719
+NEW CONFIRM 2412 S 1 @ 109.5 - A0026
+confirm time:  115228319
+### weighted_p:  109.21794871794872
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  27 b4v:  1719
+NEW CONFIRM 2412 S 1 @ 109.5 - A0027
+confirm time:  115241872
+### weighted_p:  109.21153846153847
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  28 b4v:  1718
+NEW CONFIRM 2412 S 1 @ 109.5 - A0028
+confirm time:  115248312
+### weighted_p:  109.2463768115942
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  29 b4v:  1717
+NEW CONFIRM 2412 S 1 @ 109.5 - A0029
+confirm time:  115259012
+### weighted_p:  109.2463768115942
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  30 b4v:  1715
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+NEW CONFIRM 2412 S 1 @ 109.5 - A0030
+confirm time:  115302507
+### weighted_p:  109.2536231884058
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  31 b4v:  1715
+NEW CONFIRM 2412 S 1 @ 109.5 - A0031
+confirm time:  115304860
+### weighted_p:  109.2536231884058
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  32 b4v:  1714
+NEW CONFIRM 2412 S 1 @ 109.5 - A0032
+confirm time:  115311025
+### weighted_p:  109.2536231884058
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  33 b4v:  1717
+NEW CONFIRM 2412 S 1 @ 109.5 - A0033
+confirm time:  115325104
+### weighted_p:  109.35
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  34 b4v:  1715
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+NEW CONFIRM 2412 S 1 @ 109.5 - A0034
+confirm time:  115333790
+### weighted_p:  109.36
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  35 b4v:  1714
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+NEW CONFIRM 2412 S 1 @ 109.5 - A0035
+confirm time:  115338496
+### weighted_p:  109.36
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  36 b4v:  1714
+NEW CONFIRM 2412 S 1 @ 109.5 - A0036
+confirm time:  115340476
+### weighted_p:  109.36
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  37 b4v:  1714
+NEW CONFIRM 2412 S 1 @ 109.5 - A0037
+confirm time:  115400926
+### weighted_p:  109.36
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  38 b4v:  1712
+SIM TIME 115414467
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+NEW CONFIRM 2412 S 1 @ 109.5 - A0038
+confirm time:  115414467
+### weighted_p:  109.36
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  39 b4v:  1711
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+NEW CONFIRM 2412 S 1 @ 109.5 - A0039
+confirm time:  115423277
+### weighted_p:  109.36
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  40 b4v:  1711
+NEW CONFIRM 2412 S 1 @ 109.5 - A0040
+confirm time:  115425009
+### weighted_p:  109.35
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  41 b4v:  1709
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+NEW CONFIRM 2412 S 1 @ 109.5 - A0041
+confirm time:  115432576
+### weighted_p:  109.35
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  42 b4v:  1709
+NEW CONFIRM 2412 S 1 @ 109.5 - A0042
+confirm time:  115437747
+### weighted_p:  109.35
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  43 b4v:  1708
+NEW CONFIRM 2412 S 1 @ 109.5 - A0043
+confirm time:  115453181
+### weighted_p:  109.35
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  44 b4v:  1707
+NEW CONFIRM 2412 S 1 @ 109.5 - A0044
+confirm time:  115505542
+### weighted_p:  109.36
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  45 b4v:  1706
+NEW CONFIRM 2412 S 1 @ 109.5 - A0045
+confirm time:  115508789
+### weighted_p:  109.36
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  46 b4v:  1706
+NEW CONFIRM 2412 S 1 @ 109.5 - A0046
+confirm time:  115518302
+### weighted_p:  109.36
+PARTIAL_FILL 2412 S 1 @ 109.5 - A0000
+self.qty_bound 50 num_order_ask1_q 49
+@in sell want to order 1
+**** order:  47 b4v:  1707
+NEW CONFIRM 2412 S 1 @ 109.5 - A0047
+confirm time:  115535183
+### weighted_p:  109.35
+FILL 2412 S 1 @ 109.5 - A0000
+**** cancel order:  2 b4v:  1656
+**** cancel order:  3 b4v:  1656
+**** cancel order:  4 b4v:  1656
+**** cancel order:  5 b4v:  1656
+**** cancel order:  6 b4v:  1656
+**** cancel order:  7 b4v:  1656
+**** cancel order:  8 b4v:  1657
+**** cancel order:  9 b4v:  1657
+**** cancel order:  10 b4v:  1659
+**** cancel order:  11 b4v:  1659
+**** cancel order:  12 b4v:  1661
+**** cancel order:  13 b4v:  1662
+**** cancel order:  14 b4v:  1662
+**** cancel order:  15 b4v:  1662
+**** cancel order:  16 b4v:  1668
+**** cancel order:  17 b4v:  1668
+**** cancel order:  18 b4v:  1668
+**** cancel order:  19 b4v:  1668
+**** cancel order:  20 b4v:  1668
+**** cancel order:  21 b4v:  1668
+**** cancel order:  22 b4v:  1668
+**** cancel order:  23 b4v:  1668
+**** cancel order:  24 b4v:  1668
+**** cancel order:  25 b4v:  1668
+**** cancel order:  26 b4v:  1668
+**** cancel order:  27 b4v:  1669
+**** cancel order:  28 b4v:  1669
+**** cancel order:  29 b4v:  1669
+**** cancel order:  30 b4v:  1669
+**** cancel order:  31 b4v:  1669
+**** cancel order:  32 b4v:  1669
+**** cancel order:  33 b4v:  1673
+**** cancel order:  34 b4v:  1673
+**** cancel order:  35 b4v:  1673
+**** cancel order:  36 b4v:  1673
+**** cancel order:  37 b4v:  1674
+**** cancel order:  38 b4v:  1674
+**** cancel order:  39 b4v:  1674
+**** cancel order:  40 b4v:  1674
+**** cancel order:  41 b4v:  1674
+**** cancel order:  42 b4v:  1674
+**** cancel order:  43 b4v:  1674
+**** cancel order:  44 b4v:  1674
+**** cancel order:  45 b4v:  1674
+**** cancel order:  46 b4v:  1675
+**** cancel order:  47 b4v:  1677
+CANCEL CONFIRM 2412 - A0002
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0003
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0004
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0005
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0006
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0007
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0008
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0009
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0010
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0011
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0012
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0013
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0014
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0015
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0016
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0017
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0018
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0019
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0020
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0021
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0022
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0023
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0024
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0025
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0026
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0027
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0028
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0029
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0030
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0031
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0032
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0033
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0034
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0035
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0036
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0037
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0038
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0039
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0040
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0041
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0042
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0043
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0044
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0045
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0046
+### weighted_p:  109.34
+CANCEL CONFIRM 2412 - A0047
+### weighted_p:  109.34
+SIM TIME 122432863
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+PARTIAL_FILL 2412 B 1 @ 109.0 - A0001
+FILL 2412 B 1 @ 109.0 - A0001
+START EXIT 1
+Empty DataFrame
+Columns: [sid, status, oi, hp, hv]
+Index: []
+position_q 0
+SIM TIME 130031563
+START EXIT 1
+Empty DataFrame
+Columns: [sid, status, oi, hp, hv]
+Index: []
+position_q 0
+----------Result Report--------------
+position_q 0
+buy_p [109. 109. 109. 109. 109. 109. 109. 109. 109. 109. 109. 109. 109. 109.
+ 109. 109. 109. 109. 109. 109. 109. 109. 109. 109. 109. 109. 109. 109.
+ 109. 109. 109. 109. 109. 109. 109. 109. 109. 109. 109. 109. 109. 109.
+ 109. 109. 109. 109. 109. 109. 109. 109.]
+buy_q [1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1.]
+sell_p [109.5 109.5 109.5 109.5 109.5 109.5 109.5 109.5 109.5 109.5 109.5 109.5
+ 109.5 109.5 109.5 109.5 109.5 109.5 109.5 109.5 109.5 109.5 109.5 109.5
+ 109.5 109.5 109.5 109.5 109.5 109.5 109.5 109.5 109.5 109.5 109.5 109.5
+ 109.5 109.5 109.5 109.5 109.5 109.5 109.5 109.5 109.5 109.5 109.5 109.5
+ 109.5 109.5]
+sell_q [1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1.]
+sell_q_sum 50.0 buy_q_sum 50.0
+profit:  25.0
+cost:  5475.0
+r 0.0045662100456621

@@ -1,0 +1,115 @@
+['2812']
+SIM REG LOB ['2812']
+SIM REG TICK ['2812']
+SIM TOTAL DATA LENGTH 1761
+SIM TIME 85520165
+self.qty_bound 50 num_order_ask1_q 0
+@in sell want to order 50
+NEW CONFIRM 2812 S 50 @ 10.95 - A0000
+confirm time:  90019436
+### weighted_p:  0
+qty_bound 50 num_order_bid1_q 0
+@in buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.9 - A0001
+confirm time:  92816903
+### weighted_p:  10.925482093663906
+SIM TIME 103224700
+PARTIAL_FILL 2812 B 23 @ 10.9 - A0001
+qty_bound 50 num_order_bid1_q 27
+@in buy want to order 23
+PARTIAL_FILL 2812 B 1 @ 10.9 - A0001
+NEW CONFIRM 2812 B 23 @ 10.9 - A0002
+confirm time:  114545177
+### weighted_p:  10.906278538812785
+qty_bound 50 num_order_bid1_q 49
+@in buy want to order 1
+NEW CONFIRM 2812 B 1 @ 10.9 - A0003
+confirm time:  114545674
+### weighted_p:  10.906278538812785
+PARTIAL_FILL 2812 B 7 @ 10.9 - A0001
+qty_bound 50 num_order_bid1_q 43
+@in buy want to order 7
+PARTIAL_FILL 2812 B 1 @ 10.9 - A0001
+NEW CONFIRM 2812 B 7 @ 10.9 - A0004
+confirm time:  114558122
+### weighted_p:  10.911224489795918
+qty_bound 50 num_order_bid1_q 49
+@in buy want to order 1
+NEW CONFIRM 2812 B 1 @ 10.9 - A0005
+confirm time:  114606515
+### weighted_p:  10.911224489795918
+PARTIAL_FILL 2812 B 10 @ 10.9 - A0001
+qty_bound 50 num_order_bid1_q 40
+@in buy want to order 10
+PARTIAL_FILL 2812 B 1 @ 10.9 - A0001
+NEW CONFIRM 2812 B 10 @ 10.9 - A0006
+confirm time:  114814995
+### weighted_p:  10.911270491803279
+qty_bound 50 num_order_bid1_q 49
+@in buy want to order 1
+NEW CONFIRM 2812 B 1 @ 10.9 - A0007
+confirm time:  114815748
+### weighted_p:  10.911270491803279
+PARTIAL_FILL 2812 B 2 @ 10.9 - A0001
+qty_bound 50 num_order_bid1_q 48
+@in buy want to order 2
+NEW CONFIRM 2812 B 2 @ 10.9 - A0008
+confirm time:  114947263
+### weighted_p:  10.911224489795918
+PARTIAL_FILL 2812 B 2 @ 10.9 - A0001
+qty_bound 50 num_order_bid1_q 48
+@in buy want to order 2
+NEW CONFIRM 2812 B 2 @ 10.9 - A0009
+confirm time:  115408602
+### weighted_p:  10.911224489795918
+PARTIAL_FILL 2812 B 1 @ 10.9 - A0001
+qty_bound 50 num_order_bid1_q 49
+@in buy want to order 1
+NEW CONFIRM 2812 B 1 @ 10.9 - A0010
+confirm time:  115930821
+### weighted_p:  10.913269230769231
+FILL 2812 B 2 @ 10.9 - A0001
+CANCEL CONFIRM 2812 - A0002
+### weighted_p:  10.914318181818176
+CANCEL CONFIRM 2812 - A0003
+### weighted_p:  10.914318181818176
+CANCEL CONFIRM 2812 - A0004
+### weighted_p:  10.914318181818176
+CANCEL CONFIRM 2812 - A0005
+### weighted_p:  10.914318181818176
+CANCEL CONFIRM 2812 - A0006
+### weighted_p:  10.914318181818176
+CANCEL CONFIRM 2812 - A0007
+### weighted_p:  10.914318181818176
+CANCEL CONFIRM 2812 - A0008
+### weighted_p:  10.914318181818176
+CANCEL CONFIRM 2812 - A0009
+### weighted_p:  10.914318181818176
+CANCEL CONFIRM 2812 - A0010
+### weighted_p:  10.914318181818176
+START EXIT 1
+Empty DataFrame
+Columns: [sid, status, oi, hp, hv]
+Index: []
+position_q 50
+CANCEL CONFIRM 2812 - A0000
+NEW CONFIRM 2812 S 50 @ 0.0 - A0011
+confirm time:  130008990
+### weighted_p:  10.909374999999985
+FILL 2812 S 50 @ 10.9 - A0011
+START EXIT 1
+Empty DataFrame
+Columns: [sid, status, oi, hp, hv]
+Index: []
+position_q 0
+SIM TIME 132317263
+----------Result Report--------------
+position_q 0
+buy_p [10.9 10.9 10.9 10.9 10.9 10.9 10.9 10.9 10.9 10.9]
+buy_q [23.  1.  7.  1. 10.  1.  2.  2.  1.  2.]
+sell_p [10.9]
+sell_q [50.]
+sell_q_sum 50.0 buy_q_sum 50.0
+profit:  0.0
+cost:  545.0
+r 0.0

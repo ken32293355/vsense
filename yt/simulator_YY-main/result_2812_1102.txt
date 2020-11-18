@@ -1,0 +1,167 @@
+['2812']
+SIM REG LOB ['2812']
+SIM REG TICK ['2812']
+SIM TOTAL DATA LENGTH 1829
+SIM TIME 85508254
+self.qty_bound 50 num_order_ask1_q 0
+@in sell want to order 50
+NEW CONFIRM 2812 S 50 @ 10.9 - A0000
+confirm time:  90017324
+### weighted_p:  0
+self.qty_bound 50 num_order_ask1_q 0
+@in sell want to order 50
+NEW CONFIRM 2812 S 50 @ 10.85 - A0001
+confirm time:  92548826
+### weighted_p:  0
+FILL 2812 S 50 @ 10.85 - A0001
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.8 - A0002
+confirm time:  93934428
+### weighted_p:  10.848166259168703
+SIM TIME 95300427
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.85 - A0003
+confirm time:  100500549
+### weighted_p:  10.850604229607253
+PARTIAL_FILL 2812 B 3 @ 10.85 - A0003
+qty_bound 50 num_order_bid1_q 47
+@in buy want to order 3
+NEW CONFIRM 2812 B 3 @ 10.85 - A0004
+confirm time:  103836082
+### weighted_p:  10.855291005290995
+PARTIAL_FILL 2812 B 2 @ 10.85 - A0003
+qty_bound 50 num_order_bid1_q 48
+@in buy want to order 2
+NEW CONFIRM 2812 B 2 @ 10.85 - A0005
+confirm time:  104107461
+### weighted_p:  10.855263157894727
+PARTIAL_FILL 2812 B 5 @ 10.85 - A0003
+qty_bound 50 num_order_bid1_q 45
+@in buy want to order 5
+NEW CONFIRM 2812 B 5 @ 10.85 - A0006
+confirm time:  104329979
+### weighted_p:  10.855154639175248
+PARTIAL_FILL 2812 B 1 @ 10.85 - A0003
+qty_bound 50 num_order_bid1_q 49
+@in buy want to order 1
+NEW CONFIRM 2812 B 1 @ 10.85 - A0007
+confirm time:  104359348
+### weighted_p:  10.854896907216485
+PARTIAL_FILL 2812 B 1 @ 10.85 - A0003
+qty_bound 50 num_order_bid1_q 49
+@in buy want to order 1
+NEW CONFIRM 2812 B 1 @ 10.85 - A0008
+confirm time:  104449566
+### weighted_p:  10.854639175257722
+PARTIAL_FILL 2812 B 1 @ 10.85 - A0003
+qty_bound 50 num_order_bid1_q 49
+@in buy want to order 1
+PARTIAL_FILL 2812 B 1 @ 10.85 - A0003
+NEW CONFIRM 2812 B 1 @ 10.85 - A0009
+confirm time:  104457030
+### weighted_p:  10.854450261780093
+qty_bound 50 num_order_bid1_q 49
+@in buy want to order 1
+NEW CONFIRM 2812 B 1 @ 10.85 - A0010
+confirm time:  104508461
+### weighted_p:  10.854450261780093
+PARTIAL_FILL 2812 B 2 @ 10.85 - A0003
+qty_bound 50 num_order_bid1_q 48
+@in buy want to order 2
+NEW CONFIRM 2812 B 2 @ 10.85 - A0011
+confirm time:  104619359
+### weighted_p:  10.85442708333332
+PARTIAL_FILL 2812 B 2 @ 10.85 - A0003
+qty_bound 50 num_order_bid1_q 48
+@in buy want to order 2
+PARTIAL_FILL 2812 B 1 @ 10.85 - A0003
+NEW CONFIRM 2812 B 2 @ 10.85 - A0012
+confirm time:  105242672
+### weighted_p:  10.851912568305996
+qty_bound 50 num_order_bid1_q 49
+@in buy want to order 1
+NEW CONFIRM 2812 B 1 @ 10.85 - A0013
+confirm time:  105257214
+### weighted_p:  10.851912568305996
+PARTIAL_FILL 2812 B 1 @ 10.85 - A0003
+qty_bound 50 num_order_bid1_q 49
+@in buy want to order 1
+PARTIAL_FILL 2812 B 3 @ 10.85 - A0003
+NEW CONFIRM 2812 B 1 @ 10.85 - A0014
+confirm time:  105713389
+### weighted_p:  10.855445544554442
+qty_bound 50 num_order_bid1_q 47
+@in buy want to order 3
+PARTIAL_FILL 2812 B 1 @ 10.85 - A0003
+NEW CONFIRM 2812 B 3 @ 10.85 - A0015
+confirm time:  105714140
+### weighted_p:  10.855445544554442
+qty_bound 50 num_order_bid1_q 49
+@in buy want to order 1
+NEW CONFIRM 2812 B 1 @ 10.85 - A0016
+confirm time:  105729662
+### weighted_p:  10.855445544554442
+FILL 2812 B 26 @ 10.85 - A0003
+qty_bound 50 num_order_bid1_q 24
+@in buy want to order 26
+NEW CONFIRM 2812 B 26 @ 10.85 - A0017
+confirm time:  105836778
+### weighted_p:  10.853658536585359
+SIM TIME 110922193
+FILL 2812 B 3 @ 10.85 - A0004
+FILL 2812 B 2 @ 10.85 - A0005
+PARTIAL_FILL 2812 B 4 @ 10.85 - A0006
+FILL 2812 B 1 @ 10.85 - A0006
+FILL 2812 B 1 @ 10.85 - A0007
+FILL 2812 B 1 @ 10.85 - A0008
+FILL 2812 B 1 @ 10.85 - A0009
+FILL 2812 B 1 @ 10.85 - A0010
+PARTIAL_FILL 2812 B 1 @ 10.85 - A0011
+FILL 2812 B 1 @ 10.85 - A0011
+SIM TIME 122139326
+CANCEL CONFIRM 2812 - A0002
+### weighted_p:  10.860389610389602
+CANCEL CONFIRM 2812 - A0012
+### weighted_p:  10.860389610389602
+CANCEL CONFIRM 2812 - A0013
+### weighted_p:  10.860389610389602
+CANCEL CONFIRM 2812 - A0014
+### weighted_p:  10.860389610389602
+CANCEL CONFIRM 2812 - A0015
+### weighted_p:  10.860389610389602
+CANCEL CONFIRM 2812 - A0016
+### weighted_p:  10.860389610389602
+CANCEL CONFIRM 2812 - A0017
+### weighted_p:  10.860389610389602
+PARTIAL_FILL 2812 S 3 @ 10.9 - A0000
+PARTIAL_FILL 2812 S 3 @ 10.9 - A0000
+PARTIAL_FILL 2812 S 1 @ 10.9 - A0000
+START EXIT 1
+Empty DataFrame
+Columns: [sid, status, oi, hp, hv]
+Index: []
+position_q 9
+CANCEL CONFIRM 2812 - A0000
+NEW CONFIRM 2812 S 9 @ 0.0 - A0018
+confirm time:  130012374
+### weighted_p:  10.864601769911502
+FILL 2812 S 9 @ 10.85 - A0018
+START EXIT 1
+Empty DataFrame
+Columns: [sid, status, oi, hp, hv]
+Index: []
+position_q 0
+----------Result Report--------------
+position_q 0
+buy_p [10.85 10.85 10.85 10.85 10.85 10.85 10.85 10.85 10.85 10.85 10.85 10.85
+ 10.85 10.85 10.85 10.85 10.85 10.85 10.85 10.85 10.85 10.85 10.85 10.85]
+buy_q [ 3.  2.  5.  1.  1.  1.  1.  2.  2.  1.  1.  3.  1. 26.  3.  2.  4.  1.
+  1.  1.  1.  1.  1.  1.]
+sell_p [10.85 10.9  10.9  10.9  10.85]
+sell_q [50.  3.  3.  1.  9.]
+sell_q_sum 66.0 buy_q_sum 66.0
+profit:  0.3500000000001364
+cost:  716.45
+r 0.000488519785051485

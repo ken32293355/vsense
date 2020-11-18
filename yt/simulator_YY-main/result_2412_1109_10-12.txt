@@ -1,0 +1,160 @@
+['2412']
+SIM REG LOB ['2412']
+SIM REG TICK ['2412']
+SIM TOTAL DATA LENGTH 5097
+SIM TIME 85501909
+SIM TIME 91736324
+SIM TIME 95336331
+qty_bound 50 num_order_bid1_q 0
+@in buy want to order 50
+self.qty_bound 50 num_order_ask1_q 0
+@in sell want to order 50
+NEW CONFIRM 2412 B 50 @ 109.5 - A0000
+confirm time:  100002167
+### weighted_p:  109.51980198019803
+NEW CONFIRM 2412 S 50 @ 110.0 - A0001
+confirm time:  100002167
+### weighted_p:  109.51980198019803
+SIM TIME 103056434
+SIM TIME 111709005
+CANCEL CONFIRM 2412 - A0000
+### weighted_p:  109.5241935483871
+qty_bound 50 num_order_bid1_q 0
+@in buy want to order 50
+NEW CONFIRM 2412 B 50 @ 109.5 - A0002
+confirm time:  112000181
+### weighted_p:  109.5241935483871
+CANCEL CONFIRM 2412 - A0002
+### weighted_p:  109.5241935483871
+qty_bound 50 num_order_bid1_q 0
+@in buy want to order 50
+NEW CONFIRM 2412 B 50 @ 109.5 - A0003
+confirm time:  112029777
+### weighted_p:  109.5241935483871
+CANCEL CONFIRM 2412 - A0003
+### weighted_p:  109.52459016393442
+qty_bound 50 num_order_bid1_q 0
+@in buy want to order 50
+NEW CONFIRM 2412 B 50 @ 109.5 - A0004
+confirm time:  112036865
+### weighted_p:  109.52459016393442
+CANCEL CONFIRM 2412 - A0004
+### weighted_p:  109.52459016393442
+qty_bound 50 num_order_bid1_q 0
+@in buy want to order 50
+NEW CONFIRM 2412 B 50 @ 109.5 - A0005
+confirm time:  112108781
+### weighted_p:  109.52459016393442
+CANCEL CONFIRM 2412 - A0005
+### weighted_p:  109.52479338842976
+qty_bound 50 num_order_bid1_q 0
+@in buy want to order 50
+NEW CONFIRM 2412 B 50 @ 109.5 - A0006
+confirm time:  112112974
+### weighted_p:  109.52479338842976
+CANCEL CONFIRM 2412 - A0006
+### weighted_p:  109.52479338842976
+qty_bound 50 num_order_bid1_q 0
+@in buy want to order 50
+NEW CONFIRM 2412 B 50 @ 109.5 - A0007
+confirm time:  112117206
+### weighted_p:  109.52459016393442
+CANCEL CONFIRM 2412 - A0007
+### weighted_p:  109.52459016393442
+qty_bound 50 num_order_bid1_q 0
+@in buy want to order 50
+NEW CONFIRM 2412 B 50 @ 109.5 - A0008
+confirm time:  112127663
+### weighted_p:  109.52459016393442
+CANCEL CONFIRM 2412 - A0008
+### weighted_p:  109.52459016393442
+qty_bound 50 num_order_bid1_q 0
+@in buy want to order 50
+NEW CONFIRM 2412 B 50 @ 109.5 - A0009
+confirm time:  112131448
+### weighted_p:  109.52459016393442
+CANCEL CONFIRM 2412 - A0009
+### weighted_p:  109.52459016393442
+qty_bound 50 num_order_bid1_q 0
+@in buy want to order 50
+NEW CONFIRM 2412 B 50 @ 109.5 - A0010
+confirm time:  112141739
+### weighted_p:  109.52459016393442
+CANCEL CONFIRM 2412 - A0010
+### weighted_p:  109.52016129032258
+qty_bound 50 num_order_bid1_q 0
+@in buy want to order 50
+NEW CONFIRM 2412 B 50 @ 109.5 - A0011
+confirm time:  112152819
+### weighted_p:  109.52016129032258
+CANCEL CONFIRM 2412 - A0011
+### weighted_p:  109.52016129032258
+qty_bound 50 num_order_bid1_q 0
+@in buy want to order 50
+NEW CONFIRM 2412 B 50 @ 109.5 - A0012
+confirm time:  112217268
+### weighted_p:  109.52016129032258
+CANCEL CONFIRM 2412 - A0012
+### weighted_p:  109.52032520325203
+qty_bound 50 num_order_bid1_q 0
+@in buy want to order 50
+NEW CONFIRM 2412 B 50 @ 109.5 - A0013
+confirm time:  112234841
+### weighted_p:  109.525
+CANCEL CONFIRM 2412 - A0013
+### weighted_p:  109.525
+qty_bound 50 num_order_bid1_q 0
+@in buy want to order 50
+NEW CONFIRM 2412 B 50 @ 109.5 - A0014
+confirm time:  112242867
+### weighted_p:  109.53030303030303
+CANCEL CONFIRM 2412 - A0014
+### weighted_p:  109.51411290322581
+qty_bound 50 num_order_bid1_q 0
+@in buy want to order 50
+NEW CONFIRM 2412 B 50 @ 109.5 - A0015
+confirm time:  113625013
+### weighted_p:  109.51383399209486
+CANCEL CONFIRM 2412 - A0015
+### weighted_p:  109.50994318181819
+qty_bound 50 num_order_bid1_q 0
+@in buy want to order 50
+NEW CONFIRM 2412 B 50 @ 109.5 - A0016
+confirm time:  113626681
+### weighted_p:  109.50852272727273
+qty_bound 50 num_order_bid1_q 0
+@in buy want to order 50
+NEW CONFIRM 2412 B 50 @ 109.0 - A0017
+confirm time:  113629406
+### weighted_p:  109.50674157303371
+FILL 2412 B 50 @ 109.5 - A0016
+CANCEL CONFIRM 2412 - A0017
+### weighted_p:  109.515625
+SIM TIME 121047667
+SIM TIME 124918598
+START EXIT 1
+Empty DataFrame
+Columns: [sid, status, oi, hp, hv]
+Index: []
+position_q 50
+CANCEL CONFIRM 2412 - A0001
+### weighted_p:  109.04201680672269
+NEW CONFIRM 2412 S 50 @ 0.0 - A0018
+confirm time:  130000422
+### weighted_p:  109.04201680672269
+FILL 2412 S 50 @ 109.0 - A0018
+START EXIT 1
+Empty DataFrame
+Columns: [sid, status, oi, hp, hv]
+Index: []
+position_q 0
+----------Result Report--------------
+position_q 0
+buy_p [109.5]
+buy_q [50.]
+sell_p [109.]
+sell_q [50.]
+sell_q_sum 50.0 buy_q_sum 50.0
+profit:  -25.0
+cost:  5450.0
+r -0.0045871559633027525

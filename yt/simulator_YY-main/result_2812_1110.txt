@@ -1,0 +1,58 @@
+['2812']
+SIM REG LOB ['2812']
+SIM REG TICK ['2812']
+SIM TOTAL DATA LENGTH 2708
+SIM TIME 85508088
+self.qty_bound 50 num_order_ask1_q 0
+@in sell want to order 50
+NEW CONFIRM 2812 S 50 @ 10.95 - A0000
+confirm time:  90016398
+SIM TIME 91547615
+qty_bound 50 num_order_bid1_q 0
+@in buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.9 - A0001
+confirm time:  91553006
+PARTIAL_FILL 2812 S 1 @ 10.95 - A0000
+self.qty_bound 50 num_order_ask1_q 0
+@in sell want to order 50
+FILL 2812 S 49 @ 10.95 - A0000
+NEW CONFIRM 2812 S 50 @ 11.0 - A0002
+confirm time:  93623959
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.95 - A0003
+confirm time:  94045245
+SIM TIME 94817153
+SIM TIME 105343652
+CANCEL CONFIRM 2812 - A0002
+SIM TIME 123824234
+PARTIAL_FILL 2812 B 30 @ 10.95 - A0003
+PARTIAL_FILL 2812 B 3 @ 10.95 - A0003
+PARTIAL_FILL 2812 B 7 @ 10.95 - A0003
+PARTIAL_FILL 2812 B 3 @ 10.95 - A0003
+PARTIAL_FILL 2812 B 2 @ 10.95 - A0003
+PARTIAL_FILL 2812 B 1 @ 10.95 - A0003
+PARTIAL_FILL 2812 B 1 @ 10.95 - A0003
+PARTIAL_FILL 2812 B 1 @ 10.95 - A0003
+FILL 2812 B 2 @ 10.95 - A0003
+START EXIT 1
+Empty DataFrame
+Columns: [sid, status, oi, hp, hv]
+Index: []
+position_q 0
+CANCEL CONFIRM 2812 - A0001
+START EXIT 1
+Empty DataFrame
+Columns: [sid, status, oi, hp, hv]
+Index: []
+position_q 0
+----------Result Report--------------
+position_q 0
+buy_p [10.95 10.95 10.95 10.95 10.95 10.95 10.95 10.95 10.95]
+buy_q [30.  3.  7.  3.  2.  1.  1.  1.  2.]
+sell_p [10.95 10.95]
+sell_q [ 1. 49.]
+sell_q_sum 50.0 buy_q_sum 50.0
+profit:  0.0
+cost:  547.5
+r 0.0

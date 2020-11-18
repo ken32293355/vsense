@@ -1,0 +1,50 @@
+['2412']
+SIM REG LOB ['2412']
+SIM REG TICK ['2412']
+SIM TOTAL DATA LENGTH 7274
+SIM TIME 85503056
+self.qty_bound 50 num_order_ask1_q 0
+@in sell want to order 50
+NEW CONFIRM 2412 S 50 @ 109.5 - A0000
+confirm time:  90011380
+### weighted_p:  0
+qty_bound 50 num_order_bid1_q 0
+@in buy want to order 50
+NEW CONFIRM 2412 B 50 @ 109.0 - A0001
+confirm time:  90409273
+### weighted_p:  109.21812080536913
+SIM TIME 91821537
+SIM TIME 95029294
+SIM TIME 102617394
+FILL 2412 B 50 @ 109.0 - A0001
+SIM TIME 110217704
+SIM TIME 114200487
+SIM TIME 121535248
+SIM TIME 124906585
+START EXIT 1
+Empty DataFrame
+Columns: [sid, status, oi, hp, hv]
+Index: []
+position_q 50
+CANCEL CONFIRM 2412 - A0000
+### weighted_p:  109.33333333333333
+NEW CONFIRM 2412 S 50 @ 0.0 - A0002
+confirm time:  130000398
+### weighted_p:  109.33333333333333
+FILL 2412 S 50 @ 109.0 - A0002
+SIM TIME 131920277
+START EXIT 1
+Empty DataFrame
+Columns: [sid, status, oi, hp, hv]
+Index: []
+position_q 0
+----------Result Report--------------
+position_q 0
+buy_p [109.]
+buy_q [50.]
+sell_p [109.]
+sell_q [50.]
+sell_q_sum 50.0 buy_q_sum 50.0
+profit:  0.0
+cost:  5450.0
+r 0.0

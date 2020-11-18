@@ -1,0 +1,66 @@
+['2812']
+SIM REG LOB ['2812']
+SIM REG TICK ['2812']
+SIM TOTAL DATA LENGTH 1885
+SIM TIME 85515876
+self.qty_bound 50 num_order_ask1_q 0
+@in sell want to order 50
+NEW CONFIRM 2812 S 50 @ 11.0 - A0000
+confirm time:  90014400
+### weighted_p:  0
+self.qty_bound 50 num_order_ask1_q 0
+@in sell want to order 50
+NEW CONFIRM 2812 S 50 @ 10.95 - A0001
+confirm time:  90237561
+### weighted_p:  0
+FILL 2812 S 50 @ 10.95 - A0001
+SIM TIME 94254369
+num_order_bid1_q 0 num_position -50
+@leave buy want to order 50
+NEW CONFIRM 2812 B 50 @ 10.9 - A0002
+confirm time:  94459963
+### weighted_p:  10.950150602409627
+PARTIAL_FILL 2812 B 45 @ 10.9 - A0002
+qty_bound 50 num_order_bid1_q 5
+@in buy want to order 45
+self.qty_bound 50 num_order_ask1_q 0
+@in sell want to order 50
+FILL 2812 B 5 @ 10.9 - A0002
+NEW CONFIRM 2812 B 45 @ 10.9 - A0003
+confirm time:  114738184
+### weighted_p:  10.923614318706694
+NEW CONFIRM 2812 S 50 @ 10.95 - A0004
+confirm time:  114738184
+### weighted_p:  10.923614318706694
+qty_bound 50 num_order_bid1_q 45
+@in buy want to order 5
+NEW CONFIRM 2812 B 5 @ 10.9 - A0005
+confirm time:  114746232
+### weighted_p:  10.923614318706694
+SIM TIME 120526965
+CANCEL CONFIRM 2812 - A0003
+### weighted_p:  10.926485655737704
+CANCEL CONFIRM 2812 - A0005
+### weighted_p:  10.926485655737704
+CANCEL CONFIRM 2812 - A0000
+CANCEL CONFIRM 2812 - A0004
+START EXIT 1
+Empty DataFrame
+Columns: [sid, status, oi, hp, hv]
+Index: []
+position_q 0
+START EXIT 1
+Empty DataFrame
+Columns: [sid, status, oi, hp, hv]
+Index: []
+position_q 0
+----------Result Report--------------
+position_q 0
+buy_p [10.9 10.9]
+buy_q [45.  5.]
+sell_p [10.95]
+sell_q [50.]
+sell_q_sum 50.0 buy_q_sum 50.0
+profit:  2.5
+cost:  547.5
+r 0.0045662100456621
