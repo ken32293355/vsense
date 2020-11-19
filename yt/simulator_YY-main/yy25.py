@@ -602,8 +602,16 @@ class YY25(base_strategy):
             self.s_new_order(7, self.sid, "B", -self.position_q, 0, msg_id=t_i)
             # self.s_new_order(7, self.sid, "B", self.position_q, 0, msg_id)
 
+    def get_profit(self):
+        return np.array(self.sell_p) @ np.array(self.sell_q) - np.array(self.buy_p) @ np.array(self.buy_q)
 
+    def get_cost(self):
+        return np.array(self.sell_p) @ np.array(self.sell_q)
 
+    def get_return(self):
+        p = self.get_profit()
+        c = self.get_cost()
+        return 0 if c == 0 else p/c
 
     def show_result(self):
         print("----------Result Report--------------")
@@ -694,7 +702,7 @@ class YY25(base_strategy):
 
             time.sleep(self.sleep_time)
 
-        print("hello world")
+        # print("hello world")
         self.show_result()
 
 

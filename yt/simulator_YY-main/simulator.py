@@ -2,12 +2,14 @@ import struct
 import time
 import numpy as np
 import pandas as pd
+import datetime as dt
 # from snds import snds
 # from sibs import sibs
 # from sots import sots
 from yy24 import YY24
 from yy25 import YY25
 from tqdm import tqdm
+import os
 class simulator:
 
     def __init__(self, strategy, data_path, delay_ms):
@@ -277,12 +279,38 @@ class simulator:
         self.dtime = 999999999 # 送出所有未送的 Report
         self.send_report()
 
+    def get_profit(self):
+        pass
+    def get_cost(self):
+        pass
+    def get_return(self):
+        pass
 
+def sim_range(start_date, end_date, result_path, sid):
+    cur_day = start_date
+    ONEDAY = dt.timedelta(days = 1)
+    while cur_day != end_date + ONEDAY:
+        d_str = str(cur_day)
+        d_str = d_str[:(d_str.find(" "))]
+        d_str = d_str.replace("-", "")  
+        filename = d_str + '_adj.csv'
+        if os.path.exists(filename):
+            s25 = YY25('YY25', '', 0, 0, 1, True, 'sim', beta=1, gamma=25, theta=1, position_max_q=10, qty_bound=50, weighted_factor=50, sid=sid)
+            sim = simulator(s25, filename, 150)
+            sim.start()
+            p = sim.get_profit()
+            c = sim.get_cost()
+            r = sim.get_return()
+            print(d_str, sid, p, c, r, file = open(result_path, "a"))
+        cur_day += ONEDAY
 
 if __name__ == "__main__":
     #st = sibs('sibs', '', 0, 0, '1', True, 'sim')
     # st = snds('snds', '', 0, 0, '1', True, 'sim')
     # st = sots('sots_t2',  '', 0, 0, 1, True, 'sim')
+    sim_range(dt.datetime(2020, 9, 1), dt.datetime(2020, 9, 10))
+    
+    exit()
     s25 = YY25('YY25', '', 0, 0, 1, True, 'sim', beta=1, gamma=25, theta=1, position_max_q=10, qty_bound=50, weighted_factor=50, sid='2412')
     sim = simulator(s25, '20201104_adj.csv', 150)
     sim.start()
