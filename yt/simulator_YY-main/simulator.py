@@ -8,6 +8,7 @@ import pandas as pd
 from yy24 import YY24
 from yy25 import YY25
 from tqdm import tqdm
+from yy26 import YY26
 class simulator:
 
     def __init__(self, strategy, data_path, delay_ms):
@@ -87,7 +88,7 @@ class simulator:
                 cancel = 0
                 replace = 0
                 b4v = self.get_before_vol(sid, side, price)
-                print("**** order: ", t_on, "b4v: ", b4v)
+                # print("**** order: ", t_on, "b4v: ", b4v)
                 self.order.loc[t_on] = [order_id, action, order_option, side, sid, price, vol, msg_id, 
                                         b4v, fillv, unfillv, cancel, replace]
                 report_status = 1 # new confirm
@@ -119,7 +120,7 @@ class simulator:
                 if len(t_i)>0 :
                     t_i = t_i[0]
                     if self.order.loc[t_i, 'unfillv'] > 0 :
-                        print("**** cancel order: ", t_i, "b4v: ", self.order.loc[t_i, 'b4v'])
+                        # print("**** cancel order: ", t_i, "b4v: ", self.order.loc[t_i, 'b4v'])
                         self.order.loc[t_i, 'unfillv'] = 0
                         self.order.loc[t_i, 'cancel'] = self.order.loc[t_i, 'cancel'] + 1
                         self.append_report(sid, order_id, side, 0, 0, msg_id, 2, 0) # cancel confirm
@@ -283,7 +284,7 @@ if __name__ == "__main__":
     #st = sibs('sibs', '', 0, 0, '1', True, 'sim')
     # st = snds('snds', '', 0, 0, '1', True, 'sim')
     # st = sots('sots_t2',  '', 0, 0, 1, True, 'sim')
-    s25 = YY25('YY25', '', 0, 0, 1, True, 'sim', beta=1, gamma=25, theta=1, position_max_q=10, qty_bound=50, weighted_factor=50, sid='2412')
-    sim = simulator(s25, '20201104_adj.csv', 150)
+    s26 = YY26('YY26', '', 0, 0, 1, True, 'sim', beta=1, gamma=25, theta=1, position_max_q=10, qty_bound=50, weighted_factor=50, sid='6278')
+    sim = simulator(s26, '20201110_adj.csv', 150)
     sim.start()
-    s25.show_result()
+    s26.show_result()

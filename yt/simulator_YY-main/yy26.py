@@ -20,7 +20,7 @@ import psycopg2
 from base_strategy import base_strategy
 import sots_params as params
 
-class YY25(base_strategy):
+class YY26(base_strategy):
     def __init__(self, st_name, HOST, ROUTER_PORT, JASPER_PORT, partition, nodate, mode, beta, gamma, theta, position_max_q, qty_bound, weighted_factor, sid):
 
     # def __init__(self, st_name, HOST, ROUTER_PORT, JASPER_PORT, partition, nodate=False, mode='trade'):
@@ -76,6 +76,14 @@ class YY25(base_strategy):
         self.bid1_q = 0
         self.ask1_p = 0
         self.ask1_q = 0
+        self.bid2_p = 0
+        self.bid2_q = 0
+        self.ask2_p = 0
+        self.ask2_q = 0
+        self.bid3_p = 0
+        self.bid3_q = 0
+        self.ask3_p = 0
+        self.ask3_q = 0
         
         self.theta = theta
         self.weighted_p = 0
@@ -99,6 +107,20 @@ class YY25(base_strategy):
         self.buy_q = np.array([])
         self.sell_p =np.array([])
         self.sell_q =np.array([])
+
+        #####
+        self.order_sell_q_pre = np.array([])
+        self.order_sell_p_pre = np.array([])
+        self.order_sell_id_pre = np.array([])
+        self.order_state = "N" # "N", "C"
+        self.cool_down_min = 200000
+        self.order_sell_time_pre = 0
+        self.order_buy_q_pre = np.array([])
+        self.order_buy_p_pre = np.array([])
+        self.order_buy_id_pre = np.array([])
+        self.num_pre = 0
+        self.price_pre = 0
+        #####
     
     def numtotime(self, num):
         ms = num % 1000
@@ -162,6 +184,14 @@ class YY25(base_strategy):
             self.bid1_q = bidv1
             self.ask1_p = ask1
             self.ask1_q = askv1
+            self.bid2_p = bid2
+            self.bid2_q = bidv2
+            self.ask2_p = ask2
+            self.ask2_q = askv2
+            self.bid3_p = bid3
+            self.bid3_q = bidv3
+            self.ask3_p = ask3
+            self.ask3_q = askv3
             status = self.tlist.loc[t_i, 'status']
             if self.exit_clean_position_done ==0:  # 尚未進入exit1(只出不掛)
                self.could_order(t_i) 
@@ -381,50 +411,89 @@ class YY25(base_strategy):
                 self.tlist.loc[t_i, 'oid'] = order_id
                 self.s1_lob_check(t_i) # 掛單成功後馬上做一次 lob check
                 if side == 'B':
-                    self.order_long_p = np.append(self.order_long_p, price)
-                    self.order_long_q = np.append(self.order_long_q, vol)
-                    self.order_long_oid = np.append(self.order_long_oid, order_id)
-                    # print("type of oid: ", type(order_id), "order_id", order_id)
-                    # print("order_long_oid: ", self.order_long_oid)
-                if side == 'S':
-                    self.order_short_p = np.append(self.order_short_p, price)
-                    self.order_short_q = np.append(self.order_short_q, vol)
-                    self.order_short_oid = np.append(self.order_short_oid, order_id)
-                    # print("type of oid: ", type(order_id), "order_id", order_id)
-                    # print("order_short_oid: ", self.order_short_oid)
+                    #self.order_long_p = np.append(self.order_long_p, price)
+                    #self.order_long_q = np.append(self.order_long_q, vol)
+                    #self.order_long_oid = np.append(self.order_long_oid, order_id)
 
+                    #####
+                    self.order_buy_p_pre = np.append(self.order_buy_p_pre, price)
+                    self.order_buy_q_pre = np.append(self.order_buy_q_pre, vol)
+                    self.order_buy_id_pre = np.append(self.order_buy_id_pre, order_id)
+                    
+                if side == 'S':
+                    #self.order_short_p = np.append(self.order_short_p, price)
+                    #self.order_short_q = np.append(self.order_short_q, vol)
+                    #self.order_short_oid = np.append(self.order_short_oid, order_id)
+                    
+                    ##### update order list
+                    #self.order_state = "C"
+                    self.order_sell_p_pre = np.append(self.order_sell_p_pre, price)
+                    self.order_sell_q_pre = np.append(self.order_sell_q_pre, vol)
+                    self.order_sell_id_pre = np.append(self.order_sell_id_pre, order_id)
+                    self.order_sell_time_pre = self.time_now
+                    self.price_pre = price
+                    self.num_pre = vol
+                    ##### order for buy
+                    if self.time_now <= 120000000:
+                        to_order = 0
+                        if self.position_q > 0:
+                            to_order = self.order_sell_q_pre[-1]
+                        else:
+                            to_order = self.order_sell_q_pre.sum()
+                        self.s_new_order(4, self.sid, "B", self.order_sell_q_pre[-2:].sum(), self.tlist.loc[t_i, 'bid2'], msg_id=t_i)
             else :
                 print(f'NEW CONFIRM {sid} {side} {vol} @ {price} - {order_id}')
                 print("confirm time: ", self.time_now)
-                print("### weighted_p: ", self.weighted_p)
+                # print("### weighted_p: ", self.weighted_p)
                 if side == 'B':
-                    self.order_long_p = np.append(self.order_long_p, price)
-                    self.order_long_q = np.append(self.order_long_q, vol)
-                    self.order_long_oid = np.append(self.order_long_oid, order_id)
-                    # print("type of oid: ", type(order_id), "order_id", order_id)
-                    # print("order_long_oid: ", self.order_long_oid)
+                    #self.order_long_p = np.append(self.order_long_p, price)
+                    #self.order_long_q = np.append(self.order_long_q, vol)
+                    #self.order_long_oid = np.append(self.order_long_oid, order_id)
+
+                    #####
+                    self.order_buy_p_pre = np.append(self.order_buy_p_pre, price)
+                    self.order_buy_q_pre = np.append(self.order_buy_q_pre, vol)
+                    self.order_buy_id_pre = np.append(self.order_buy_id_pre, order_id)
+                    
                 if side == 'S':
-                    self.order_short_p = np.append(self.order_short_p, price)
-                    self.order_short_q = np.append(self.order_short_q, vol)
-                    self.order_short_oid = np.append(self.order_short_oid, order_id)
-                    # print("type of oid: ", type(order_id), "order_id", order_id)
-                    # print("order_short_oid: ", self.order_short_oid)
+                    #self.order_short_p = np.append(self.order_short_p, price)
+                    #self.order_short_q = np.append(self.order_short_q, vol)
+                    #self.order_short_oid = np.append(self.order_short_oid, order_id)
+
+                    ##### update order list
+                    #self.order_state = "C"
+                    self.order_sell_p_pre = np.append(self.order_sell_p_pre, price)
+                    self.order_sell_q_pre = np.append(self.order_sell_q_pre, vol)
+                    self.order_sell_id_pre = np.append(self.order_sell_id_pre, order_id)
+                    self.order_sell_time_pre = self.time_now
+                    self.price_pre = price
+                    self.num_pre = vol
+                    ##### order for buy
+                    if self.time_now <= 120000000:
+                        to_order = 0
+                        if self.position_q > 0:
+                            to_order = self.order_sell_q_pre[-1]
+                        else:
+                            to_order = self.order_sell_q_pre.sum()
+                        self.s_new_order(4, self.sid, "B", self.order_sell_q_pre[-2:].sum(), self.tlist.loc[t_i, 'bid2'], msg_id=t_i)
+                    
         elif report_status == 2 :
             if side == 'B':
-                delete_index = np.argwhere(order_id ==self.order_long_oid )
-                self.order_long_oid = np.delete(self.order_long_oid, delete_index)
-                self.order_long_p = np.delete(self.order_long_p, delete_index)
-                self.order_long_q = np.delete(self.order_long_q, delete_index)
+                delete_index = np.argwhere(order_id == self.order_buy_id_pre )
+                self.order_buy_id_pre = np.delete(self.order_buy_id_pre, delete_index)
+                self.order_buy_p_pre = np.delete(self.order_buy_p_pre, delete_index)
+                self.order_buy_q_pre = np.delete(self.order_buy_q_pre, delete_index)
+
                 print(f'CANCEL CONFIRM {sid} - {order_id}')
-                print("### weighted_p: ", self.weighted_p)
+                # print("### weighted_p: ", self.weighted_p)
             
             elif side == 'S':
-                delete_index = np.argwhere(order_id ==self.order_short_oid )
-                self.order_short_oid = np.delete(self.order_short_oid, delete_index)
-                self.order_short_p = np.delete(self.order_short_p, delete_index)
-                self.order_short_q = np.delete(self.order_short_q, delete_index)
+                delete_index = np.argwhere(order_id ==self.order_sell_id_pre )
+                self.order_sell_id_pre = np.delete(self.order_sell_id_pre, delete_index)
+                self.order_sell_p_pre = np.delete(self.order_sell_p_pre, delete_index)
+                self.order_sell_q_pre = np.delete(self.order_sell_q_pre, delete_index)
                 print(f'CANCEL CONFIRM {sid} - {order_id}')
-                print("### weighted_p: ", self.weighted_p)
+                # print("### weighted_p: ", self.weighted_p)
 
         elif report_status == 3 :
             print(f'REPLACE CONFIRM {sid} {side} {vol} @ {price}')
@@ -439,24 +508,40 @@ class YY25(base_strategy):
                 self.buy_history.append(price)
                 self.buy_time.append(self.time_now)
                 
-                delete_index = np.argwhere(self.order_long_oid == order_id)
-                self.order_long_q = np.delete(self.order_long_q, delete_index)
-                self.order_long_p = np.delete(self.order_long_p, delete_index)
-                self.order_long_oid = np.delete(self.order_long_oid, delete_index)
+                #delete_index = np.argwhere(self.order_long_oid == order_id)
+                #self.order_long_q = np.delete(self.order_long_q, delete_index)
+                #self.order_long_p = np.delete(self.order_long_p, delete_index)
+                #self.order_long_oid = np.delete(self.order_long_oid, delete_index)
+
+                #####
+                delete_index = np.argwhere(self.order_buy_id_pre == order_id)
+                self.order_buy_q_pre = np.delete(self.order_buy_q_pre, delete_index)
+                self.order_buy_p_pre = np.delete(self.order_buy_p_pre, delete_index)
+                self.order_buy_id_pre = np.delete(self.order_buy_id_pre, delete_index)
+
 
             
             elif side == 'S':
                 self.position_q -= filled_quantity
                 self.tlist.loc[t_i, 'oi'] = self.tlist.loc[t_i, 'oi'] - filled_quantity
+
                 self.sell_history.append(price)
                 self.sell_time.append(self.time_now)
                 self.sell_p = np.append(self.sell_p, price)
                 self.sell_q = np.append(self.sell_q, filled_quantity)
 
-                delete_index = np.argwhere(self.order_short_oid == order_id)
-                self.order_short_q = np.delete(self.order_short_q, delete_index)
-                self.order_short_p = np.delete(self.order_short_p, delete_index)
-                self.order_short_oid = np.delete(self.order_short_oid, delete_index)
+                #delete_index = np.argwhere(self.order_short_oid == order_id)
+                #self.order_short_q = np.delete(self.order_short_q, delete_index)
+                #self.order_short_p = np.delete(self.order_short_p, delete_index)
+                #self.order_short_oid = np.delete(self.order_short_oid, delete_index)
+
+                #####
+                self.order_state = "C"
+                
+                delete_index = np.argwhere(self.order_sell_id_pre == order_id)
+                self.order_sell_q_pre = np.delete(self.order_sell_q_pre, delete_index)
+                self.order_sell_p_pre = np.delete(self.order_sell_p_pre, delete_index)
+                self.order_sell_id_pre = np.delete(self.order_sell_id_pre, delete_index)
             
             if msg_id >= 10000 : # 確認掛單完全成交
                 self.tlist.loc[t_i, 'status'] = 0
@@ -465,6 +550,7 @@ class YY25(base_strategy):
                 #     self.cover_oi(t_i)
                 #     print(f'COVER {sid}, UNEXPECTED OI (fill report)')
                 # print(self.tlist.loc[self.tlist['status']!=0, ['sid', 'status', 'oi', 'hp', 'hv']])
+
         elif report_status == 5 : # 部分成交
             if side == 'B':
                 self.tlist.loc[t_i, 'oi'] = self.tlist.loc[t_i, 'oi'] + filled_quantity
@@ -475,19 +561,21 @@ class YY25(base_strategy):
                 self.buy_history.append(price)
                 self.buy_time.append(self.time_now)
                 
-                index = np.argwhere(self.order_long_oid == order_id)[0]
-                self.order_long_q[index] -= filled_quantity 
+                index = np.argwhere(self.order_buy_id_pre == order_id)[0]
+                self.order_buy_q_pre[index] -= filled_quantity 
             
             elif side == 'S':
                 self.position_q -= filled_quantity
                 self.tlist.loc[t_i, 'oi'] = self.tlist.loc[t_i, 'oi'] - filled_quantity
+
                 self.sell_history.append(price)
                 self.sell_time.append(self.time_now)
                 self.sell_p = np.append(self.sell_p, price)
                 self.sell_q = np.append(self.sell_q, filled_quantity)
 
-                index = np.argwhere(self.order_short_oid == order_id)[0]
-                self.order_short_q[index] -= filled_quantity 
+                index = np.argwhere(self.order_sell_id_pre == order_id)[0]
+                self.order_sell_q_pre[index] -= filled_quantity
+
             print(f'PARTIAL_FILL {sid} {side} {filled_quantity} @ {price} - {order_id}')
         elif report_status == 6 :
             print(f'CANCEL_REJECT {sid} {side} - {order_id}')
@@ -498,15 +586,10 @@ class YY25(base_strategy):
 
     def could_cancel_order(self, t_i):
         if self.time_now <= 120000000:
-            if self.bid1_q < 500: 
-                cancel_index = np.argwhere(self.weighted_p/1.00025 < self.order_long_p).reshape(-1)
-                for i in cancel_index:
-                    self.s_cancel_order(str(self.order_long_oid[i]), self.sid, "B")
-            if self.ask1_q < 500:
-                cancel_index = np.argwhere(self.weighted_p*1.00025 > self.order_short_p).reshape(-1)
-                for i in cancel_index:
-                    self.s_cancel_order(str(self.order_short_oid[i]), self.sid, "S")
-            return 
+            cancel_index = np.argwhere(self.order_buy_p_pre < self.bid3_p).reshape(-1)
+            for i in cancel_index:
+                self.s_cancel_order(str(self.order_buy_id_pre[i]), self.sid, "B")
+
 
 
     def exit_cancel_order(self):
@@ -514,68 +597,52 @@ class YY25(base_strategy):
         self.exit_cancel_order_done = True
         if num_position > 0:
             # print("取消多單")
-            for i in range(len(self.order_long_oid)):
-                self.s_cancel_order(self.order_long_oid[i], self.sid, "B")
+            for i in range(len(self.order_buy_id_pre)):
+                self.s_cancel_order(self.order_buy_id_pre[i], self.sid, "B")
             
         elif num_position < 0:
             #print("取消空單")
-            for i in range(len(self.order_short_oid)):
-                self.s_cancel_order(self.order_short_oid[i], self.sid, "S")
+            for i in range(len(self.order_sell_id_pre)):
+                self.s_cancel_order(self.order_sell_id_pre[i], self.sid, "S")
         else:
-            
+            for i in range(len(self.order_buy_id_pre)):
+                self.s_cancel_order(self.order_buy_id_pre[i], self.sid, "B")
+            for i in range(len(self.order_sell_id_pre)):
+                self.s_cancel_order(self.order_sell_id_pre[i], self.sid, "S")
             #print("都取消")
-            for i in range(len(self.order_long_oid)):
-                self.s_cancel_order(self.order_long_oid[i], self.sid, "B")
-            for i in range(len(self.order_short_oid)):
-                self.s_cancel_order(self.order_short_oid[i], self.sid, "S")
-
+            
 
     def could_order(self, t_i):
         #FINDORDER
         if not 120000000 >= self.time_now >= 90000000:
             return
-        num_order_bid1_q = 0
-        num_order_ask1_q = 0
-        num_position = self.position_q
+        # num_order_bid1_q = 0
+        # num_order_ask1_q = 0
+        # num_position = self.position_q
         if self.tlist.loc[t_i, 'sid']!= self.sid:
             return
-        # 在 bid1_p掛幾張了
-        for i in range(len(self.order_long_p)):
-            if (self.order_long_p[i] == self.bid1_p):
-                num_order_bid1_q += self.order_long_q[i]
-        # 在 ask1_p掛幾張了
-        for i in range(len(self.order_short_p)):
-            if (self.order_short_p[i] == self.ask1_p):
-                num_order_ask1_q += self.order_short_q[i]
-        # 出場條件
-        if num_order_bid1_q < -num_position and num_position < 0\
-            and self.tlist.loc[t_i, 'bid1'] < self.weighted_p:
-            print("num_order_bid1_q", num_order_bid1_q , "num_position", num_position)
-            print("@leave buy want to order", -num_order_bid1_q - num_position)
-            self.s_new_order(4, self.sid, "B", -num_order_bid1_q - num_position, self.tlist.loc[t_i, 'bid1'], msg_id=t_i)
-            # self.order(self.bid1_p, -num_order_bid1_q - num_position, etype = "BUY_QUEUE")
-        # 進場條件 
-        elif num_order_bid1_q < min(self.qty_bound, self.bid1_q) and self.bid1_q > self.qty_bound and abs(num_position) < self.qty_bound\
-        and self.bid1_p < self.weighted_p*0.99995:
-            print("qty_bound", self.qty_bound , "num_order_bid1_q", num_order_bid1_q)
-            print("@in buy want to order", self.qty_bound - num_order_bid1_q)
+        if self.time_now-self.order_sell_time_pre < self.cool_down_min:
+            return
 
-            self.s_new_order(4, self.sid, "B", self.qty_bound - num_order_bid1_q, self.tlist.loc[t_i, 'bid1'], msg_id=t_i)
-            # self.order(self.bid1_p, self.qty_bound - num_order_bid1_q, etype = "BUY_QUEUE")
-        # 出場條件
-        if num_order_ask1_q < num_position\
-            and self.tlist.loc[t_i, 'ask1'] > self.weighted_p:
-            print("-num_order_ask1_q", -num_order_ask1_q , "num_position", num_position)
-            print("@leave sell want to order", -num_order_ask1_q + num_position)
-            self.s_new_order(4, self.sid, "S", -num_order_ask1_q + num_position, self.tlist.loc[t_i, 'ask1'], msg_id=t_i)
-            #self.order(self.ask1_p, -num_order_ask1_q + num_position, etype = "SELL_QUEUE")
-        # 進場條件 
-        elif num_order_ask1_q < min(self.qty_bound, self.ask1_q) and self.ask1_q > self.qty_bound and abs(num_position) < self.qty_bound\
-        and self.ask1_p > self.weighted_p*1.0005:
-            print("self.qty_bound", self.qty_bound, "num_order_ask1_q", num_order_ask1_q)
-            print("@in sell want to order", self.qty_bound - num_order_ask1_q)
-            self.s_new_order(4, self.sid, "S", self.qty_bound - num_order_ask1_q, self.tlist.loc[t_i, 'ask1'], msg_id=t_i)
-            # self.order(self.ask1_p, self.qty_bound - num_order_ask1_q, etype = "SELL_QUEUE")
+        if self.order_state == "N" \
+            and self.ask1_p > self.weighted_p:
+            self.s_new_order(4, self.sid, "S", 1, self.tlist.loc[t_i, 'ask1'], msg_id=t_i)
+        if self.order_state == "C" \
+            and self.ask1_p > self.price_pre:
+            self.s_new_order(4, self.sid, "S", self.num_pre * 2, self.tlist.loc[t_i, 'ask1'], msg_id=t_i)
+        if self.order_state == "C" \
+            and self.ask1_p <= self.weighted_p:
+            self.order_state = "N"
+            
+
+
+
+
+
+
+
+
+
     def exit_clean_position(self, t_i):
         print('START EXIT 1')
         print(self.tlist.loc[self.tlist['status']!=0, ['sid', 'status', 'oi', 'hp', 'hv']])
@@ -590,9 +657,9 @@ class YY25(base_strategy):
         #         print(f'CANCEL HANG {sid} - {oid}, EXIT_1')
         #         self.tlist.loc[t_i, 'oid'] = ''
         #         self.tlist.loc[t_i, 'status'] = 0
-        for i in self.order_long_oid:
+        for i in self.order_buy_id_pre:
             self.s_cancel_order(i, self.sid, "B", t_i)
-        for i in self.order_short_oid:
+        for i in self.order_sell_id_pre:
             self.s_cancel_order(i, self.sid, "S", t_i)
         
         print("position_q", self.position_q)
